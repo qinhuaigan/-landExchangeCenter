@@ -8,22 +8,3 @@
 image {
   width: 100%;
 }
-
-.imgTitle {
-  background-color: cornflowerblue;
-  padding: 10rpx 40rpx;
-  display: inline-block;
-  color: #fff;
-}
-
-.descriptionText {
-  padding: 40rpx 60rpx;
-}
-
-.footerText {
-  padding: 20rpx 40rpx;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 30rpx 40rpx 40rpx 40rpx;
-  color: #fff;
-  line-height: 50rpx;
-}
