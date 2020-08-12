@@ -9,7 +9,8 @@
 	<view class="imageBox mt20px">
 		<wux-row gutter="20">
 			<wux-col span="6" wx:for="{{imgs}}" wx:key="item">
-        <image bindtap="preview" data-src="{{item}}" class="mt10px animated zoomIn" style="height: {{index > 1 ? '250rpx' : '500rpx'}}" src="{{item}}"></image>
+        <image bindtap="preview" data-src="{{item.src}}" class="mt10px animated zoomIn" style="height: {{index > 1 ? '250rpx' : '500rpx'}}" src="{{item.src}}"></image>
+				<view class="text-center title">{{item.remark}}</view>
 			</wux-col>
 		</wux-row>
 	</view>

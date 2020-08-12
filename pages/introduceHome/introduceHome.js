@@ -6,12 +6,17 @@ Page({
    */
   data: {
     startAnimate: false,
-    imgs: [
-      'https://res1.eqh5.com/Fu9kLA-S8_RyXHkk-bRBXgM9Z2zd?imageMogr2/auto-orient/thumbnail/440x625%3E/format/webp',
-      'https://res1.eqh5.com/FjW7y-bJVOkSIT6IMm4wbxWuTqeY?imageMogr2/auto-orient/thumbnail/300x730%3E/format/webp',
-      'https://res1.eqh5.com/Fs56-A-d8cCYApHNZDHImXqQWcv-?imageMogr2/auto-orient/thumbnail/343x230%3E/format/webp',
-      'https://res1.eqh5.com/lpfvZ_xUX-k2bpQY4zVElHzC2VDC?imageMogr2/auto-orient/thumbnail/400x225%3E/format/webp'
-    ],
+    imgs: [{
+      src: 'https://res1.eqh5.com/Fu9kLA-S8_RyXHkk-bRBXgM9Z2zd?imageMogr2/auto-orient/thumbnail/440x625%3E/format/webp',
+      remark: '柳州地图'
+    }, {
+      src: 'https://res1.eqh5.com/FjW7y-bJVOkSIT6IMm4wbxWuTqeY?imageMogr2/auto-orient/thumbnail/300x730%3E/format/webp',
+      remark: '柳州美景'
+    }, {
+      src: 'https://res1.eqh5.com/Fs56-A-d8cCYApHNZDHImXqQWcv-?imageMogr2/auto-orient/thumbnail/343x230%3E/format/webp',
+    }, {
+      src: 'https://res1.eqh5.com/lpfvZ_xUX-k2bpQY4zVElHzC2VDC?imageMogr2/auto-orient/thumbnail/400x225%3E/format/webp'
+    }],
     lastX: 0, //滑动开始x轴位置
     lastY: 0, //滑动开始y轴位置
     moveText: "无",
@@ -57,7 +62,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-   
+
   },
 
   /**
@@ -81,9 +86,13 @@ Page({
   //预览图片，放大预览
   preview(event) {
     let currentUrl = event.currentTarget.dataset.src
+    const imgs = this.data.imgs.reduce((total, item) => {
+      total.push(item.src)
+      return total
+    }, [])
     wx.previewImage({
       current: currentUrl, // 当前显示图片的http链接
-      urls: this.data.imgs // 需要预览的图片http链接列表
+      urls: imgs // 需要预览的图片http链接列表
     })
   },
   touchStart: function (e) {
@@ -133,10 +142,10 @@ Page({
     this.data.currentGesture = 0;
     switch (this.data.moveText) {
       case '上':
-        
+
         break;
       case '下':
-        
+
         break;
       case '左':
         wx.reLaunch({
