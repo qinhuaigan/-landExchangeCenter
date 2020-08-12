@@ -1,10 +1,4 @@
 /* pages/detailPage1/detailPage1.wxss */
-.title {
-  font-weight: bold;
-  color: cornflowerblue;
-  margin: 20rpx 0
-}
-
 image {
   width: 100%;
 }

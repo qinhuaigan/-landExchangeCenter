@@ -5,7 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    startAnimate: false,
+    images: [
+      'https://res1.eqh5.com/FljTiAfkX6TnMqypvg0LShf8xDAP?imageMogr2/auto-orient/thumbnail/628x418%3E/format/webp',
+      'https://res1.eqh5.com/FvyxuR-c9gRpUcHq04_JugnPHNMq?imageMogr2/auto-orient/thumbnail/733x470%3E/format/webp',
+      'https://res1.eqh5.com/FlfLXoNAmEjPCaSj88tYjH-tGVtm?imageMogr2/auto-orient/thumbnail/675x603%3E/format/webp'
+    ]
   },
 
   /**
@@ -54,7 +59,9 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+    this.setData({
+      startAnimate: true
+    })
   },
 
   /**
@@ -62,5 +69,12 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  preview(event) {
+    let currentUrl = event.currentTarget.dataset.src
+    wx.previewImage({
+      current: currentUrl, // 当前显示图片的http链接
+      urls: this.data.images // 需要预览的图片http链接列表
+    })
+  },
 })

@@ -6,6 +6,15 @@ page {
   font-size: 32rpx;
 }
 
+view {
+  animation-delay: 1s;
+}
+
+image {
+  width: 100%;
+  animation-delay: 1s;
+}
+
 .pageContent {
   padding: 0 40rpx;
 }
@@ -130,6 +139,10 @@ page {
 
 .mb15px {
   margin-bottom: 30rpx !important;
+}
+
+.mb10px {
+  margin-bottom: 20rpx !important;
 }
 
 .mb20px {
@@ -338,14 +351,72 @@ page {
 }
 
 .descriptionText {
-  padding: 40rpx 60rpx;
+  line-height: 50rpx;
+  padding: 40rpx 0;
 }
 
 .footerText {
   padding: 20rpx;
   background-color: rgba(0, 0, 0, 0.5);
-  margin: 20rpx 60rpx 20rpx 60rpx;
+  margin: 20rpx 0;
   color: #fff;
   line-height: 40rpx;
   font-size: 26rpx;
+  text-align: center;
+}
+
+.detailTitle {
+  font-weight: bold;
+  color: cornflowerblue;
+  margin: 20rpx 0
+}
+
+.prevPage {
+  display: inline-block;
+  padding: 25rpx 20rpx;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: fixed;
+  left: 20rpx;
+  top: 50%;
+  transform: translateY(-50%);
+  animation-delay: 0;
+  animation: showAnimate 3s;
+  animation-iteration-count: infinite;
+  z-index: 10;
+}
+
+.nextPage {
+  display: inline-block;
+  padding: 25rpx 20rpx;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: fixed;
+  right: 20rpx;
+  top: 50%;
+  transform: translateY(-50%);
+  animation-delay: 0;
+  animation: showAnimate 3s;
+  animation-iteration-count: infinite;
+  z-index: 10;
+}
+
+@keyframes showAnimate {
+  0% {
+    opacity: 0
+  }
+
+  48% {
+    opacity: 1
+  }
+
+  52% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
 }

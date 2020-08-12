@@ -188,23 +188,23 @@ Page({
   },
   //滑动结束事件
   handletouchend: function (event) {
-    this.data.currentGesture = 0;
-    switch (this.data.moveText) {
-      case '上':
+    // this.data.currentGesture = 0;
+    // switch (this.data.moveText) {
+    //   case '上':
 
-        break;
-      case '下':
+    //     break;
+    //   case '下':
 
-        break;
-      case '左':
-        break;
-      case '右':
-        wx.reLaunch({
-          url: '../introduceHome/introduceHome',
-        })
-        break;
-      default:
-        break;
-    }
+    //     break;
+    //   case '左':
+    //     break;
+    //   case '右':
+    //     wx.reLaunch({
+    //       url: '../introduceHome/introduceHome',
+    //     })
+    //     break;
+    //   default:
+    //     break;
+    // }
   }
 })

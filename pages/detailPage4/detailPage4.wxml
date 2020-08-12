@@ -1,2 +1,62 @@
 <!--pages/detailPage4/detailPage4.wxml-->
-<text>pages/detailPage4/detailPage4.wxml</text>
+<view class="pageBody">
+	<view class="mt20px">
+		<title leftTitle="04. 城 中 区" rightTitle="CHENGZHONG"></title>
+	</view>
+	<view class="pageContent">
+		<view class="detailTitle">中医院东院北侧东环大道延长线东侧部分地块</view>
+		<view class="imgTitle">柳州市区地图</view>
+		<image src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
+		<view class="imgTitle mt10px mb10px">地块位置</view>
+		<image src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="footerText text-center">
+			<view>地块信息</view>
+			<view>地块总面积：477.61亩</view>
+		</view>
+		<view class="mt20px">
+			<contentBox title="地块一">
+				<wux-row class="lineHeight32px">
+					<wux-col span="6" class="text-right">地块用途：</wux-col>
+					<wux-col span="6">为商业、娱乐康体用地</wux-col>
+					<wux-col span="6" class="text-right">地块面积：</wux-col>
+					<wux-col span="6">348.62亩</wux-col>
+					<wux-col span="6" class="text-right">容积率：</wux-col>
+					<wux-col span="6">0.5~1.0</wux-col>
+					<wux-col span="6" class="text-right">建筑密度：</wux-col>
+					<wux-col span="6">15%~30%</wux-col>
+					<wux-col span="6" class="text-right">建筑高度：</wux-col>
+					<wux-col span="6">-15m~30m</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="地块二">
+				<wux-row class="lineHeight32px">
+					<wux-col span="6" class="text-right">地块用途：</wux-col>
+					<wux-col span="6">公园绿地</wux-col>
+					<wux-col span="6" class="text-right">地块面积：</wux-col>
+					<wux-col span="6">128.99亩</wux-col>
+					<wux-col span="6" class="text-right">容积率：</wux-col>
+					<wux-col span="6">0.01~0.02</wux-col>
+					<wux-col span="6" class="text-right">建筑密度：</wux-col>
+					<wux-col span="6">0.5%~2.0%</wux-col>
+					<wux-col span="6" class="text-right">建筑高度：</wux-col>
+					<wux-col span="6">-5m~24m</wux-col>
+					<wux-col span="6" class="text-right">绿地率：</wux-col>
+					<wux-col span="6">≥70%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+	</view>
+	<view class="mt20px">
+		<title leftTitle="- 周边配套 -" rightTitle="CHENGZHONG"></title>
+	</view>
+	<view class="pageContent">
+		<view class="mt10px">
+			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
+		</view>
+		<view class="descriptionText">地块背靠“城市绿心”莲花山风景区，风景优美、空气宜人，作为柳州市河东片区仅存的少量商业、娱乐康体用地，地块价值潜力不言而喻</view>
+		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
+	</view>
+	<footer startAnimate="{{startAnimate}}"></footer>
+</view>

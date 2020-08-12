@@ -9,6 +9,10 @@
   height: 200rpx;
 }
 
+.footerBox view {
+  animation-delay: 0;
+}
+
 .footerBox .box1 {
   width: 20%;
   height: 200rpx;

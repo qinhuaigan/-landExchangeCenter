@@ -116,26 +116,36 @@ Page({
   },
   //滑动结束事件
   handletouchend: function (event) {
-    this.data.currentGesture = 0;
-    switch (this.data.moveText) {
-      case '上':
-        
-        break;
-      case '下':
-        
-        break;
-      case '左':
-        wx.reLaunch({
-          url: '../introduceHome/introduceHome',
-        })
-        break;
-      case '右':
-        wx.reLaunch({
-          url: '../home/home',
-        })
-        break;
-      default:
-        break;
-    }
+    // this.data.currentGesture = 0;
+    // switch (this.data.moveText) {
+    //   case '上':
+
+    //     break;
+    //   case '下':
+
+    //     break;
+    //   case '左':
+    //     wx.reLaunch({
+    //       url: '../introduceHome/introduceHome',
+    //     })
+    //     break;
+    //   case '右':
+    //     wx.reLaunch({
+    //       url: '../home/home',
+    //     })
+    //     break;
+    //   default:
+    //     break;
+    // }
+  },
+  goBack: function () {
+    wx.reLaunch({
+      url: '../home/home',
+    })
+  },
+  goNext: function () {
+    wx.reLaunch({
+      url: '../introduceHome/introduceHome',
+    })
   }
 })

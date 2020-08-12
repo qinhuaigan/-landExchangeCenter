@@ -1,5 +1,5 @@
 <!--pages/home/home.wxml-->
-<view class="homeBody" bindtap = "handletap" bindtouchstart = "handletouchtart" bindtouchmove="handletouchmove" bindtouchend="handletouchend">
+<view class="homeBody" bindtap="handletap" bindtouchstart="handletouchtart" bindtouchmove="handletouchmove" bindtouchend="handletouchend">
 	<view class="text-center">
 		<view class="topBox animated fadeInDown">
 			<view class="fz30px animated fadeInDownBig">2020-2021</view>
@@ -26,5 +26,8 @@
 			<text>柳州</text>
 		</view>
 	</view>
-	<instructionsIcon></instructionsIcon>
+	<view class="nextPage" bindtap="goNext">
+		<wux-icon type="ios-arrow-forward" />
+	</view>
+	<!-- <instructionsIcon></instructionsIcon> -->
 </view>

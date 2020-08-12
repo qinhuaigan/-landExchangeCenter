@@ -11,6 +11,12 @@
 		<view class="mt20px textContent animated zoomIn">2019年全年商品住宅投资368.3亿元，比上年增长18.9%。商品房施工面积3046.2万平方米，增长12.8%，其中住宅2289.0万平方米，增长15.5%。商品房竣工面积130.0万平方米，下降24.4%，其中住宅89.5万平方米，下降37.1%。商品房销售面积651.8万平方米，增长2.3%，其中住宅582.3万平方米，增长1.2%。商品房销售额511.2亿元，增长3.2%,其中住宅458.4亿元，增长4.3%。全年各类保障性住房投资40.21亿元；保障性住房(棚改)计划开工11061套，比上年下降9.5%；保障性住房（棚改）竣工8433套，比上年增长19.7% 。
 		</view>
 	</view>
-	<instructionsIcon></instructionsIcon>
+	<view class="prevPage" bindtap="goBack">
+		<wux-icon type="ios-arrow-back" />
+	</view>
+	<view class="nextPage" bindtap="goNext">
+		<wux-icon type="ios-arrow-forward" />
+	</view>
+	<!-- <instructionsIcon></instructionsIcon> -->
 	<footer startAnimate="{{startAnimate}}"></footer>
 </view>

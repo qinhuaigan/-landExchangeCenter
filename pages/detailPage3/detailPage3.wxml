@@ -1,2 +1,64 @@
 <!--pages/detailPage3/detailPage3.wxml-->
-<text>pages/detailPage3/detailPage3.wxml</text>
+<view class="pageBody">
+	<view class="mt20px">
+		<title leftTitle="03. 城 中 区" rightTitle="CHENGZHONG"></title>
+	</view>
+	<view class="pageContent">
+		<view class="detailTitle">桂柳路39号地块</view>
+		<view class="imgTitle">柳州市区地图</view>
+		<image src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
+		<view class="imgTitle mt10px mb10px">地块位置</view>
+		<image src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="footerText text-center">
+			<view>地块信息</view>
+			<view>地块总面积：74.619亩</view>
+		</view>
+		<view class="mt20px">
+			<contentBox title="地块一">
+				<wux-row class="lineHeight32px">
+					<wux-col span="6" class="text-right">地块用途：</wux-col>
+					<wux-col span="6">商业设施用地（邻里中心）</wux-col>
+					<wux-col span="6" class="text-right">地块面积：</wux-col>
+					<wux-col span="6">16.691亩</wux-col>
+					<wux-col span="6" class="text-right">容积率：</wux-col>
+					<wux-col span="6">1.0~1.5</wux-col>
+					<wux-col span="6" class="text-right">建筑密度：</wux-col>
+					<wux-col span="6">15%~35%</wux-col>
+					<wux-col span="6" class="text-right">建筑高度：</wux-col>
+					<wux-col span="6">-15m~24m</wux-col>
+					<wux-col span="6" class="text-right">绿地率：</wux-col>
+					<wux-col span="6">≥25%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="地块二">
+				<wux-row class="lineHeight32px">
+					<wux-col span="6" class="text-right">地块用途：</wux-col>
+					<wux-col span="6">城镇住宅用地</wux-col>
+					<wux-col span="6" class="text-right">地块面积：</wux-col>
+					<wux-col span="6">57.928亩</wux-col>
+					<wux-col span="6" class="text-right">容积率：</wux-col>
+					<wux-col span="6">1.5~2.0</wux-col>
+					<wux-col span="6" class="text-right">建筑密度：</wux-col>
+					<wux-col span="6">15%~20%</wux-col>
+					<wux-col span="6" class="text-right">建筑高度：</wux-col>
+					<wux-col span="6">-15m~60m</wux-col>
+					<wux-col span="6" class="text-right">绿地率：</wux-col>
+					<wux-col span="6">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+	</view>
+	<view class="mt20px">
+		<title leftTitle="- 周边配套 -" rightTitle="CHENGZHONG"></title>
+	</view>
+	<view class="pageContent">
+		<view class="mt10px">
+			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
+		</view>
+		<view class="descriptionText">柳州市的绿色人居典范区，代表城市高品质居住环境的现代生态宜居城区。交通区位地位重要，背靠莲花山风景区，自然环境资源优势明显。</view>
+		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
+	</view>
+	<footer startAnimate="{{startAnimate}}"></footer>
+</view>

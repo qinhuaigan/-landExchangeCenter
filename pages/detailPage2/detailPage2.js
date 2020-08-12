@@ -5,7 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-    images: []
+    startAnimate: false,
+    images: [
+      'https://res1.eqh5.com/FrLeIK29qA1Hg7Szs-oGdQJ2EPMP?imageMogr2/auto-orient/thumbnail/618x443%3E/format/webp',
+      'https://res1.eqh5.com/Fi-RQFqBQKqZ-Jh_o0v_ko8t5bxT?imageMogr2/auto-orient/thumbnail/673x470%3E/format/webp',
+      'https://res1.eqh5.com/FvF80vhI90ujGUL2eKka9h4sgnGe?imageMogr2/auto-orient/thumbnail/733x523%3E/format/webp'
+    ]
   },
 
   /**
@@ -54,7 +59,9 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+    this.setData({
+      startAnimate: true
+    })
   },
 
   /**
