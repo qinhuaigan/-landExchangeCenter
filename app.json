@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/enterpriseIntroduction/enterpriseIntroduction",
+    "pages/introduceHome/introduceHome",
+    "pages/catalogPage/catalogPage",
+    "pages/detailPage1/detailPage1",
+    "pages/detailPage2/detailPage2",
+    "pages/detailPage3/detailPage3",
+    "pages/detailPage4/detailPage4",
+    "pages/detailPage5/detailPage5",
+    "pages/detailPage6/detailPage6",
+    "pages/detailPage7/detailPage7",
+    "pages/detailPage8/detailPage8",
+    "pages/detailPage9/detailPage9",
+    "pages/detailPage10/detailPage10",
+    "pages/detailPage11/detailPage11",
+    "pages/detailPage12/detailPage12",
+    "pages/detailPage13/detailPage13",
+    "pages/detailPage14/detailPage14",
+    "pages/detailPage15/detailPage15",
+    "pages/detailPage16/detailPage16",
+    "pages/detailPage17/detailPage17",
+    "pages/detailPage18/detailPage18",
+    "pages/detailPage19/detailPage19",
+    "pages/detailPage20/detailPage20",
+    "pages/detailPage21/detailPage21",
+    "pages/detailPage22/detailPage22",
+    "pages/detailPage23/detailPage23",
+    "pages/detailPage24/detailPage24"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "柳州土地交易储备中心",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

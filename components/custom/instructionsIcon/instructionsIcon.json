@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "wux-icon": "../../wux-weapp/icon/index",
+    "wux-row": "../../wux-weapp/row/index",
+    "wux-col": "../../wux-weapp/col/index"
+  }
+}

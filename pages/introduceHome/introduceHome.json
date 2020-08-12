@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "wux-icon": "../../components/wux-weapp/icon/index",
+    "wux-row": "../../components/wux-weapp/row/index",
+    "wux-col": "../../components/wux-weapp/col/index",
+    "footer": "../../components/custom/footer/footer",
+    "title": "../../components/custom/title/title",
+    "instructionsIcon": "../../components/custom/instructionsIcon/instructionsIcon"
+  }
+}

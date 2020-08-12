@@ -1,0 +1,12 @@
+/* pages/catalogPage/catalogPage.wxss */
+.catalogImg {
+  width: 100%;
+}
+
+.catalogType {
+  padding: 20rpx 40rpx;
+  background-color: cornflowerblue;
+  display: inline-block;
+  color: #fff;
+
+}

@@ -1,0 +1,10 @@
+/* pages/introduceHome/introduceHome.wxss */
+.imageBox {
+  padding: 0 40rpx;
+}
+
+.imageBox image {
+  width: 100%;
+  height: 500rpx;
+}
+

@@ -1,0 +1,12 @@
+{
+  "usingComponents": {"wux-row": "../../components/wux-weapp/row/index",
+    "wux-col": "../../components/wux-weapp/col/index",
+    "wux-icon": "../../components/wux-weapp/icon/index",
+    "wux-image": "../../components/wux-weapp/image/index",
+    "footer": "../../components/custom/footer/footer",
+    "title": "../../components/custom/title/title",
+    "instructionsIcon": "../../components/custom/instructionsIcon/instructionsIcon",
+    "wux-timeline": "../../components/wux-weapp/timeline/index",
+    "wux-timeline-item": "../../components/wux-weapp/timeline-item/index"
+  }
+}

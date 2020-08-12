@@ -1,0 +1,61 @@
+/* components/custom/footer.wxss */
+@import '../../../css/animate.wxss'
+
+.footerBox {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 200rpx;
+}
+
+.footerBox .box1 {
+  width: 20%;
+  height: 200rpx;
+  background-image: url('https://res1.eqh5.com/Fuq9SJYtaBhq6_YGC_44Q-ZQAZfc?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!240x178a0a0%7CimageMogr2/auto-orient/thumbnail/300x223%3E/format/webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  position: absolute;
+  left: -10%;
+  bottom: 0;
+  z-index: 10;
+}
+
+.footerBox .box2 {
+  width: 30%;
+  height: 90rpx;
+  background-image: url('https://res1.eqh5.com/FiyGMRpiIyo-kJCeWRX3piXS4JLZ?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!310x78a0a0%7CimageMogr2/auto-orient/thumbnail/460x115%3E/format/webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  z-index: 100;
+}
+
+.footerBox .box3 {
+  width: 60%;
+  height: 150rpx;
+  background-image: url('https://res1.eqh5.com/FudIlv0ZwS3_1zaX6KBiq5Jq4wyC?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!370x78a0a0%7CimageMogr2/auto-orient/thumbnail/650x135%3E/format/webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  position: absolute;
+  left: 28%;
+  bottom: 0;
+  z-index: 200;
+}
+
+.footerBox .box4 {
+  width: 30%;
+  height: 200rpx;
+  background-image: url('https://res1.eqh5.com/FlOf4vTfQm1p4q3ml_P4Irc5-fov?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!213x178a0a0%7CimageMogr2/auto-orient/thumbnail/310x258%3E/format/webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  position: absolute;
+  right: -15%;
+  bottom: 0;
+}

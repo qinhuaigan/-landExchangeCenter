@@ -1,0 +1,7 @@
+<!--components/custom/footer.wxml-->
+<view class="footerBox clearfix">
+	<view class="box1 animated {{startAnimate ? 'fadeInRight' : ''}}"></view>
+	<view class="box2 animated {{startAnimate ? 'fadeInUp' : ''}}"></view>
+	<view class="box3 animated {{startAnimate ? 'fadeInUp' : ''}}"></view>
+	<view class="box4 animated {{startAnimate ? 'fadeInLeft' : ''}}"></view>
+</view>

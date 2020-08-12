@@ -1,0 +1,26 @@
+<!--pages/detailPage1/detailPage1.wxml-->
+<view class="pageBody">
+	<view class="pageContent">
+		<view class="mt20px">
+			<title leftTitle="- 01. 城 中 区 -" rightTitle="CHENGZHONG"></title>
+		</view>
+		<view class="title">沿江路东侧桂中大道延长线西侧部分土地</view>
+		<view class="imgTitle">推介地块区位图</view>
+		<image src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
+		<view class="imgTitle mb10px">地理位置</view>
+		<image src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="title">地块信息</view>
+		<view class="mt10px">
+			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
+		</view>
+		<view class="mt20px">
+			<title leftTitle="周边配套" rightTitle="CHENGZHONG"></title>
+		</view>
+		<view class="mt10px">
+			<image mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
+		</view>
+		<view class="descriptionText">推介地块毗邻滨江景观带，距河东商圈约6.0公里，距城中半岛商圈仅7.5公里。交通便利，潜力无限。</view>
+		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
+		<footer startAnimate="{{startAnimate}}"></footer>
+	</view>
+</view>

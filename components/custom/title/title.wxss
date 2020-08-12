@@ -1,0 +1,44 @@
+/* components/custom/title/title.wxss */
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+}
+
+.clearfix {
+  /* 为了照顾ie6浏览器*/
+  zoom: 1;
+}
+
+.titleBox {
+  width: 100%;
+  height: 128rpx;
+  background-image: url('https://res1.eqh5.com/FrAwtI-6SF-s7C8-2Za7CzucXWkb?imageMogr2/auto-orient/thumbnail/923x158%3E/format/webp');
+  color: #fff;
+  background-size: 115% 100%;
+  background-repeat: no-repeat;
+  font-size: 32rpx;
+  background-position: center;
+}
+
+.titleRight {
+  float: right;
+  width: 40%;
+  text-align: center;
+  padding-top: 8rpx;
+}
+
+.titleLeft {
+  float: left;
+  width: 60%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pageContent {
+  padding: 10rpx 50rpx;
+  line-height: 50rpx;
+  font-size: 32rpx;
+}

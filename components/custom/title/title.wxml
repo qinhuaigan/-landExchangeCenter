@@ -1,0 +1,9 @@
+<!--components/custom/title/title.wxml-->
+<view class="titleBox">
+	<view class="clearfix">
+		<view class="titleRight">{{rightTitle}}</view>
+	</view>
+	<view class="clearfix">
+		<view class="titleLeft">{{leftTitle}}</view>
+	</view>
+</view>

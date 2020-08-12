@@ -1,0 +1,24 @@
+<!--pages/catalogPage/catalogPage.wxml-->
+<view class="pageBody" bindtap="handletap" bindtouchstart="handletouchtart" bindtouchmove="handletouchmove" bindtouchend="handletouchend">
+	<view class="mt20px">
+		<title leftTitle="- 目录页 -" rightTitle="CATALOG"></title>
+	</view>
+	<view class="pageContent">
+		<view class="mt10px">
+			<image class="catalogImg" mode="widthFix" src="https://res1.eqh5.com/Fnj4SqnNZf27XO5MN2jSqY3S3NQD?imageMogr2/auto-orient/thumbnail/710x310%3E/format/webp"></image>
+		</view>
+		<view class="mt10px">
+			<view wx:for="{{catalogList}}" wx:key="type" wx:for-item="item1">
+				<view class="catalogType">{{item1.type}}</view>
+				<view class="mt10px">
+					<wux-timeline>
+						<wux-timeline-item wx:key="link" wx:for="{{item1.data}}" wx:for-item="item2" dotStyle="border-color: cornflowerblue; color: #33cd5f; background-color: cornflowerblue;">
+							<navigator url="{{item2.link}}">{{item2.name}}</navigator>
+						</wux-timeline-item>
+					</wux-timeline>
+				</view>
+			</view>
+		</view>
+	</view>
+	<footer startAnimate="{{startAnimate}}"></footer>
+</view>

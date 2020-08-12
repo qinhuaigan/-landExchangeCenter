@@ -1,0 +1,15 @@
+<!--components/custom/instructionsIcon/instructionsIcon.wxml-->
+<view class="upIconBox">
+	<wux-row gutter="20">
+		<wux-col span="6">
+			<view class="upIconBoxLeft">
+				<wux-icon type="ios-arrow-back" size="32" />
+			</view>
+		</wux-col>
+		<wux-col span="6">
+			<view class="upIconBoxRight">
+				<wux-icon type="ios-arrow-forward" size="32" />
+			</view>
+		</wux-col>
+	</wux-row>
+</view>

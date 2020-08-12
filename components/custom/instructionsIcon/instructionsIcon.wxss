@@ -1,0 +1,23 @@
+/* components/custom/instructionsIcon/instructionsIcon.wxss */
+@import '../../../css/animate.wxss'
+.upIconBox {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 20rpx;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  font-size: 60rpx;
+  z-index: 1000;
+}
+
+.upIconBox .upIconBoxLeft {
+  animation: fadeOutLeft 2s;
+  animation-iteration-count: infinite;
+}
+
+.upIconBox .upIconBoxRight {
+  animation: fadeOutRight 2s;
+  animation-iteration-count: infinite;
+}

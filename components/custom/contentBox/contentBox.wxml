@@ -1,0 +1,9 @@
+<!--components/custom/contentBox/contentBox.wxml-->
+<view class="boxBody">
+	<view class="boxTitle">
+    <view class="boxTitleText">{{title}}</view>
+  </view>
+	<view class="boxContent">
+    <slot></slot>
+  </view>
+</view>

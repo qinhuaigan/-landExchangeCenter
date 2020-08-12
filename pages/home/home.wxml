@@ -1,0 +1,30 @@
+<!--pages/home/home.wxml-->
+<view class="homeBody" bindtap = "handletap" bindtouchstart = "handletouchtart" bindtouchmove="handletouchmove" bindtouchend="handletouchend">
+	<view class="text-center">
+		<view class="topBox animated fadeInDown">
+			<view class="fz30px animated fadeInDownBig">2020-2021</view>
+			<view class="fz30px animated bounceIn mt20px">土地</view>
+			<view class="fz32px mt20px animated bounceIn">推介</view>
+			<view class="fz34px mt20px animated bounceIn">宣传册</view>
+			<view class="fz20px mt20px animated fadeInDownBig">LAND</view>
+			<view class="fz20px mt10px animated fadeInDownBig">PROMOTION</view>
+		</view>
+	</view>
+	<view class="bottomLeft clearfix mt40px ml40px animated rotateInDownLeft">
+		<view class="bottomLeftText fz36px">
+			<text>壮美</text>
+		</view>
+		<view class="ml20px bottomLeftText fz40px">
+			<text>龙城</text>
+		</view>
+	</view>
+	<view class="bottomRight mt20px animated rotateInDownRight text-right">
+		<view class="bottomLeftText fz36px">
+			<text>风尚</text>
+		</view>
+		<view class="ml20px mr40px bottomLeftText fz40px">
+			<text>柳州</text>
+		</view>
+	</view>
+	<instructionsIcon></instructionsIcon>
+</view>
