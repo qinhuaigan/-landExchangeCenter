@@ -31,7 +31,7 @@ Page({
         link: '../detailPage7/detailPage7'
       }, {
         name: '08.柳南区——柳太路南侧白露大桥南桥头西面B地块',
-        link: '../detailPage8/detailPage8'
+        link: '../detailPage7/detailPage7'
       }, {
         name: '09.柳南区——西鹅路南端东侧部分地块',
         link: '../detailPage9/detailPage9'

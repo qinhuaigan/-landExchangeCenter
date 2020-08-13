@@ -1,2 +1,51 @@
 <!--pages/detailPage10/detailPage10.wxml-->
-<text>pages/detailPage10/detailPage10.wxml</text>
+<view class="pageBody">
+	<view class="mt20px">
+		<title leftTitle="10. 柳南区" rightTitle="LIUNAN"></title>
+	</view>
+	<view class="pageContent">
+		<view class="detailTitle">瑞龙路中段东侧</view>
+		<view class="imgTitle">柳州市区地图</view>
+		<image src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
+		<view class="imgTitle mt20px">地块位置</view>
+		<image src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="mt20px">
+			<contentBox title="地块信息">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅、零售商业用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">152.914亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.0~2.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~30%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+	</view>
+	<view class="mt20px">
+		<title leftTitle="- 柳州美景 -" rightTitle="LIUNAN"></title>
+	</view>
+	<view class="pageContent">
+		<view class="mt10px">
+			<wux-row>
+				<wux-col span="12">
+					<image class="mb10px" mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
+				</wux-col>
+				<wux-col span="4">
+					<image style="height: 350rpx;" mode="heightFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
+				</wux-col>
+				<wux-col span="8">
+					<image style="height: 350rpx;" mode="heightFix" src="{{images[4]}}" data-src="{{images[4]}}" bindtap="preview"></image>
+				</wux-col>
+			</wux-row>
+		</view>
+		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
+	</view>
+	<footer startAnimate="{{startAnimate}}"></footer>
+</view>
