@@ -5,7 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    startAnimate: false,
+    images: [
+      'https://res1.eqh5.com/FoiUcO6HZ_lh7L0xhZGmQXaRqGkM?imageMogr2/auto-orient/thumbnail/645x505%3E/format/webp',
+      'https://res1.eqh5.com/Fhns6I1UK9TaVQbrffZopJL-GhJ1?imageMogr2/auto-orient/thumbnail/688x460%3E/format/webp',
+      'https://res1.eqh5.com/FvQCm54IGBmNoYKvWCn6iVadyTxA?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!820x484a0a0%7CimageMogr2/auto-orient/thumbnail/698x413%3E/format/webp',
+      'https://res1.eqh5.com/Fldj510VXN8oRjqYdfF1dVYNBq1e?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!821x479a0a0%7CimageMogr2/auto-orient/thumbnail/700x408%3E/format/webp'
+    ]
   },
 
   /**
@@ -54,7 +60,9 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+    this.setData({
+      startAnimate: true
+    })
   },
 
   /**
@@ -62,5 +70,12 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  preview(event) {
+    let currentUrl = event.currentTarget.dataset.src
+    wx.previewImage({
+      current: currentUrl, // 当前显示图片的http链接
+      urls: this.data.images // 需要预览的图片http链接列表
+    })
+  },
 })

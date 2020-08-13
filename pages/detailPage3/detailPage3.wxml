@@ -6,9 +6,9 @@
 	<view class="pageContent">
 		<view class="detailTitle">桂柳路39号地块</view>
 		<view class="imgTitle">柳州市区地图</view>
-		<image src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
+		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">地块位置</view>
-		<image src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
 		<view class="footerText text-center">
 			<view>地块信息</view>
 			<view>地块总面积：74.619亩</view>
@@ -17,7 +17,7 @@
 			<contentBox title="地块一">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
-					<wux-col span="7">商业设施用地（邻里中心）</wux-col>
+					<wux-col span="7">商业设施用地 (邻里中心)</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
 					<wux-col span="7">16.691亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>

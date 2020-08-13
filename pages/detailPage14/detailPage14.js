@@ -5,7 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    startAnimate: false,
+    images: [
+      'https://res1.eqh5.com/FgZ-E0MMq4DD4HvF0H83OPIWiBdv?imageMogr2/auto-orient/thumbnail/645x450%3E/format/webp',
+      'https://res1.eqh5.com/Fl-WDryM0HgZ4S33NTmlrmCYsNod?imageMogr2/auto-orient/thumbnail/708x460%3E/format/webp',
+      'https://res1.eqh5.com/FpdXXr9F__iExSTuA4tqCw7_uo1s?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!1193x457a0a0%7CimageMogr2/auto-orient/thumbnail/698x265%3E/format/webp',
+      'https://res1.eqh5.com/FsJH8T6WXs7jygSI4QqGGXV81t5C?imageMogr2/auto-orient/thumbnail/700x275%3E/format/webp'
+    ]
   },
 
   /**
@@ -54,7 +60,9 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+    this.setData({
+      startAnimate: true
+    })
   },
 
   /**
@@ -62,5 +70,12 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  preview(event) {
+    let currentUrl = event.currentTarget.dataset.src
+    wx.previewImage({
+      current: currentUrl, // 当前显示图片的http链接
+      urls: this.data.images // 需要预览的图片http链接列表
+    })
+  },
 })

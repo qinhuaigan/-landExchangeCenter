@@ -7,9 +7,9 @@
 		<view class="w100 imgTitle">07.柳太路南侧白露大桥南桥头西面A地块</view>
     <view class="w100 imgTitle mt10px">08. 柳太路南侧白露大桥南桥头西侧B地块</view>
 		<view class="imgTitle mt20px">周边配置及配套</view>
-		<image src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
+		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">位置放大图</view>
-		<image src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
 		<view class="mt20px">
 			<contentBox title="地块07">
 				<wux-row class="lineHeight32px">

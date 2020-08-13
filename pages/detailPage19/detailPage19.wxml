@@ -1,2 +1,32 @@
 <!--pages/detailPage19/detailPage19.wxml-->
-<text>pages/detailPage19/detailPage19.wxml</text>
+<view class="pageBody">
+	<view class="mt20px">
+		<title leftTitle="19. 北部生态新区" rightTitle="BEIBUSHENGTAI"></title>
+	</view>
+	<view class="pageContent">
+		<view class="detailTitle">阳和工业新区A-3-1、A-4-1、A-5-2地块</view>
+		<view class="imgTitle">柳州市区地图</view>
+		<image src="{{images[0]}}" mode="widthFix" data-src="{{images[0]}}" bindtap="preview"></image>
+		<view class="imgTitle mt20px">地块位置</view>
+		<image src="{{images[1]}}" mode="widthFix" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="mt20px">
+			<contentBox title="地块信息">
+				<image src="{{images[2]}}" mode="widthFix" data-src="{{images[2]}}" bindtap="preview"></image>
+			</contentBox>
+		</view>
+	</view>
+	<view class="mt20px">
+		<title leftTitle="- 柳州美景 -" rightTitle="BEIBUSHENGTAI"></title>
+	</view>
+	<view class="pageContent">
+		<view class="mt10px">
+			<wux-row gutter="20">
+				<wux-col span="12">
+					<image mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
+				</wux-col>
+			</wux-row>
+		</view>
+		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
+	</view>
+	<footer startAnimate="{{startAnimate}}"></footer>
+</view>
