@@ -1,5 +1,5 @@
 {
-  "pages": [
+  "pages":[
     "pages/index/index",
     "pages/logs/logs",
     "pages/home/home",
@@ -31,11 +31,11 @@
     "pages/detailPage23/detailPage23",
     "pages/detailPage24/detailPage24"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
+  "window":{
+    "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "柳州土地交易储备中心",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle":"black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
