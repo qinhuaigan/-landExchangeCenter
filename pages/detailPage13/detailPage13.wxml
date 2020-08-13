@@ -29,7 +29,7 @@
 		</view>
 	</view>
 	<view class="mt20px">
-		<title leftTitle="- 柳州美景 -" rightTitle="YUFENG"></title>
+		<title leftTitle="柳州美景" rightTitle="YUFENG"></title>
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">

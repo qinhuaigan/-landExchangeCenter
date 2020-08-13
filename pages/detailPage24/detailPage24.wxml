@@ -1,2 +1,47 @@
 <!--pages/detailPage24/detailPage24.wxml-->
-<text>pages/detailPage24/detailPage24.wxml</text>
+<view class="pageBody">
+	<view class="mt20px">
+		<title leftTitle="24. 鱼峰区" rightTitle="YUFENG"></title>
+	</view>
+	<view class="pageContent">
+		<view class="detailTitle">燎原路以东白云路东段以北地块</view>
+		<view class="imgTitle">柳州市区地图</view>
+		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
+		<view class="imgTitle mt20px">地块位置</view>
+		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="mt20px">
+			<contentBox title="地块信息">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">零售商业、旅馆业用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">142亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.0~1.1</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">10%~25%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-10m~24m</wux-col>
+          <wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+	</view>
+	<view class="mt20px">
+		<title leftTitle="柳州美景" rightTitle="YUFENG"></title>
+	</view>
+	<view class="pageContent">
+		<view class="mt10px">
+			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
+		</view>
+		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
+	</view>
+	<footer startAnimate="{{startAnimate}}"></footer>
+</view>
+
+
+
+
+
+

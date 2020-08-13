@@ -48,7 +48,7 @@
 		</view>
 	</view>
 	<view class="mt20px">
-		<title leftTitle="- 周边环境 -" rightTitle="LIUNAN"></title>
+		<title leftTitle="周边环境" rightTitle="LIUNAN"></title>
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">

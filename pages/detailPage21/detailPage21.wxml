@@ -1,2 +1,46 @@
 <!--pages/detailPage21/detailPage21.wxml-->
-<text>pages/detailPage21/detailPage21.wxml</text>
+<view class="pageBody">
+	<view class="mt20px">
+		<title leftTitle="21. 城中区" rightTitle="CHENGZHONG"></title>
+	</view>
+	<view class="pageContent">
+		<view class="detailTitle">高新南路西侧部分地块</view>
+		<view class="imgTitle">柳州市区地图</view>
+		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
+		<view class="imgTitle mt20px">地块位置</view>
+		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="mt20px">
+			<contentBox title="地块信息">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">商业（市场）、居住用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">23.005亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">25%~48%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">
+						<view>居住建筑≤60m；</view>
+						<view>商业建筑≤ 24m；</view>
+						<view>下限-10m</view>
+					</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥10%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+	</view>
+	<view class="mt20px">
+		<title leftTitle="周边配套" rightTitle="CHENGZHONG"></title>
+	</view>
+	<view class="pageContent">
+		<view class="mt10px">
+			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
+		</view>
+		<view class="descriptionText">柳州市规划，首个结合农副产品市场改造升级打造成邻里中心的项目，邻里中心是服务于社区的商业，力求打造以大型农贸市场为龙头、集社区综合服务、特色餐饮及商业配套服务等多种服务功能于一体的商业综合体，为百姓提供“一站式”服务。</view>
+		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
+	</view>
+	<footer startAnimate="{{startAnimate}}"></footer>
+</view>
