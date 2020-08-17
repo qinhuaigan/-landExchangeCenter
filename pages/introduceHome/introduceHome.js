@@ -10,13 +10,19 @@ Page({
       src: 'https://res1.eqh5.com/Fu9kLA-S8_RyXHkk-bRBXgM9Z2zd?imageMogr2/auto-orient/thumbnail/440x625%3E/format/webp',
       remark: '柳州地图'
     }, {
-      src: 'https://res1.eqh5.com/FjW7y-bJVOkSIT6IMm4wbxWuTqeY?imageMogr2/auto-orient/thumbnail/300x730%3E/format/webp',
+      src: 'https://s1.ax1x.com/2020/08/17/deIAOg.th.jpg',
       remark: '柳州美景'
     }, {
-      src: 'https://res1.eqh5.com/Fs56-A-d8cCYApHNZDHImXqQWcv-?imageMogr2/auto-orient/thumbnail/343x230%3E/format/webp',
+      src: 'https://s1.ax1x.com/2020/08/17/de0AUJ.th.jpg',
     }, {
-      src: 'https://res1.eqh5.com/lpfvZ_xUX-k2bpQY4zVElHzC2VDC?imageMogr2/auto-orient/thumbnail/400x225%3E/format/webp'
-    }],
+      src: 'https://s1.ax1x.com/2020/08/17/deIVmQ.th.jpg'
+    }], // 缩略图
+    originalImgList: [
+      'https://res1.eqh5.com/Fu9kLA-S8_RyXHkk-bRBXgM9Z2zd?imageMogr2/auto-orient/thumbnail/440x625%3E/format/webp',
+      'https://s1.ax1x.com/2020/08/17/deIAOg.jpg',
+      'https://s1.ax1x.com/2020/08/17/de0AUJ.jpg',
+      'https://s1.ax1x.com/2020/08/17/deIVmQ.jpg'
+    ], // 原图
     lastX: 0, //滑动开始x轴位置
     lastY: 0, //滑动开始y轴位置
     moveText: "无",
@@ -89,10 +95,11 @@ Page({
     const imgs = this.data.imgs.reduce((total, item) => {
       total.push(item.src)
       return total
-    }, [])
+    }, []) // 缩略图
+    const imgIndex = imgs.indexOf(currentUrl) // 获取 "原图的下标"
     wx.previewImage({
-      current: currentUrl, // 当前显示图片的http链接
-      urls: imgs // 需要预览的图片http链接列表
+      current: this.data.originalImgList[imgIndex], // 当前显示图片的http链接
+      urls: this.data.originalImgList // 需要预览的图片http链接列表
     })
   },
   touchStart: function (e) {

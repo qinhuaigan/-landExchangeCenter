@@ -7,11 +7,17 @@ Page({
   data: {
     startAnimate: false,
     images: [
-      'https://res1.eqh5.com/FjJ8pmsE_aPYARFFg8sAyu8xllCT?imageMogr2/auto-orient/thumbnail/668x470%3E/format/webp',
+      'https://s1.ax1x.com/2020/08/17/deIB6O.jpg',
       'https://res1.eqh5.com/Fp5uXp-iU4UfgECwo-QomelwtqCs?imageMogr2/auto-orient/thumbnail/598x488%3E/format/webp',
       'https://res1.eqh5.com/Fo20uaXtm1NPVPAn7btqaXHP0m7o?imageMogr2/auto-orient/thumbnail/728x310%3E/format/webp',
       'https://res1.eqh5.com/FhfWruSLMn9MoekNa8_mJdZT_jdP?imageMogr2/auto-orient/thumbnail/790x540%3E/format/webp'
-    ]
+    ], 
+    originalImgsList: [
+      '',
+      '',
+      '',
+      ''
+    ] // 原图
   },
 
   /**
@@ -74,9 +80,10 @@ Page({
   //预览图片，放大预览
   preview(event) {
     let currentUrl = event.currentTarget.dataset.src
+    const originalIndex = this.data.images.indexOf(currentUrl)
     wx.previewImage({
-      current: currentUrl, // 当前显示图片的http链接
-      urls: this.data.images // 需要预览的图片http链接列表
+      current: this.data.originalImgsList[originalIndex], // 当前显示图片的http链接
+      urls: this.data.originalImgsList // 需要预览的图片http链接列表
     })
   },
 })

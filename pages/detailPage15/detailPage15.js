@@ -12,7 +12,13 @@ Page({
       'https://res1.eqh5.com/FuntzlL-iZGZdunyKWOClDu1oBk9?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!799x483a0a0%7CimageMogr2/auto-orient/thumbnail/695x420%3E/format/webp',
       'https://res1.eqh5.com/FjJKlnxfJmeCONTQf0Tx3Yx-slZu?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!799x481a0a0%7CimageMogr2/auto-orient/thumbnail/693x418%3E/format/webp',
       'https://res1.eqh5.com/FgRQ5T25Op5DJlDUlqynbR2MuyU0?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!553x977a0a0%7CimageMogr2/auto-orient/thumbnail/695x1228%3E/format/webp'
-    ]
+    ],
+    originalImgsList: [
+      '',
+      '',
+      '',
+      ''
+    ] // 原图
   },
 
   /**
@@ -72,11 +78,13 @@ Page({
   onShareAppMessage: function () {
 
   },
+  //预览图片，放大预览
   preview(event) {
     let currentUrl = event.currentTarget.dataset.src
+    const originalIndex = this.data.images.indexOf(currentUrl)
     wx.previewImage({
-      current: currentUrl, // 当前显示图片的http链接
-      urls: this.data.images // 需要预览的图片http链接列表
+      current: this.data.originalImgsList[originalIndex], // 当前显示图片的http链接
+      urls: this.data.originalImgsList // 需要预览的图片http链接列表
     })
   },
 })
