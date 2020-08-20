@@ -13,6 +13,7 @@ view {
 image {
   width: 100%;
   animation-delay: 1s;
+  display: block;
 }
 
 .pageContent {

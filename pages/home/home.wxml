@@ -2,7 +2,9 @@
 <view class="homeBody" bindtap="handletap" bindtouchstart="handletouchtart" bindtouchmove="handletouchmove" bindtouchend="handletouchend">
 	<view class="text-center">
 		<view class="topBox animated fadeInDown">
-			<view class="fz30px animated fadeInDownBig">2020-2021</view>
+			<view class="fz30px animated fadeInDownBig">
+				<image mode="widthFix" src="https://s1.ax1x.com/2020/08/20/dGDzN9.png"></image>
+			</view>
 			<view class="fz30px animated bounceIn mt20px">土地</view>
 			<view class="fz32px mt20px animated bounceIn">推介</view>
 			<view class="fz34px mt20px animated bounceIn">宣传册</view>
@@ -10,21 +12,11 @@
 			<view class="fz20px mt10px animated fadeInDownBig">PROMOTION</view>
 		</view>
 	</view>
-	<view class="bottomLeft clearfix mt40px ml40px animated rotateInDownLeft">
-		<view class="bottomLeftText fz36px">
-			<text>壮美</text>
-		</view>
-		<view class="ml20px bottomLeftText fz40px">
-			<text>龙城</text>
-		</view>
+	<view class="w60 bottomLeft clearfix mt40px ml20px animated rotateInDownLeft">
+		<image mode="widthFix" src="https://s1.ax1x.com/2020/08/20/dGr991.png"></image>
 	</view>
-	<view class="bottomRight mt20px animated rotateInDownRight text-right">
-		<view class="bottomLeftText fz36px">
-			<text>风尚</text>
-		</view>
-		<view class="ml20px mr40px bottomLeftText fz40px">
-			<text>柳州</text>
-		</view>
+	<view class="w60 fr bottomRight mt20px mr20px animated rotateInDownRight text-right">
+		<image mode="widthFix" src="https://s1.ax1x.com/2020/08/20/dGrShR.png"></image>
 	</view>
 	<view class="nextPage" bindtap="goNext">
 		<wux-icon type="ios-arrow-forward" />

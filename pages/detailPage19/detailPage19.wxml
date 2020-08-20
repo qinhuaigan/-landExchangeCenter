@@ -20,9 +20,13 @@
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">
-			<wux-row gutter="20">
-				<wux-col span="12">
-					<image mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
+			<wux-row gutter="10">
+				<wux-col span="6">
+					<image style="height: 250rpx" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
+					<image class="mt10px" style="height: 250rpx" src="{{images[4]}}" data-src="{{images[4]}}" bindtap="preview"></image>
+				</wux-col>
+				<wux-col span="6">
+					<image style="height: 520rpx" src="{{images[5]}}" data-src="{{images[5]}}" bindtap="preview"></image>
 				</wux-col>
 			</wux-row>
 		</view>

@@ -7,21 +7,21 @@ Page({
   data: {
     startAnimate: false,
     imgs: [{
-      src: 'https://res1.eqh5.com/Fu9kLA-S8_RyXHkk-bRBXgM9Z2zd?imageMogr2/auto-orient/thumbnail/440x625%3E/format/webp',
+      src: 'https://s1.ax1x.com/2020/08/20/dGrwvV.md.png',
       remark: '柳州地图'
     }, {
-      src: 'https://s1.ax1x.com/2020/08/17/deIAOg.th.jpg',
+      src: 'https://s1.ax1x.com/2020/08/20/dGrDDU.th.jpg',
       remark: '柳州美景'
     }, {
-      src: 'https://s1.ax1x.com/2020/08/17/de0AUJ.th.jpg',
+      src: 'https://s1.ax1x.com/2020/08/20/dGra3q.th.jpg',
     }, {
-      src: 'https://s1.ax1x.com/2020/08/17/deIVmQ.th.jpg'
+      src: 'https://s1.ax1x.com/2020/08/20/dGrBuT.th.jpg'
     }], // 缩略图
     originalImgList: [
-      'https://res1.eqh5.com/Fu9kLA-S8_RyXHkk-bRBXgM9Z2zd?imageMogr2/auto-orient/thumbnail/440x625%3E/format/webp',
-      'https://s1.ax1x.com/2020/08/17/deIAOg.jpg',
-      'https://s1.ax1x.com/2020/08/17/de0AUJ.jpg',
-      'https://s1.ax1x.com/2020/08/17/deIVmQ.jpg'
+      'https://s1.ax1x.com/2020/08/20/dGrwvV.png',
+      'https://s1.ax1x.com/2020/08/20/dGrDDU.jpg',
+      'https://s1.ax1x.com/2020/08/20/dGra3q.jpg',
+      'https://s1.ax1x.com/2020/08/20/dGrBuT.jpg'
     ], // 原图
     lastX: 0, //滑动开始x轴位置
     lastY: 0, //滑动开始y轴位置

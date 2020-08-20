@@ -5,7 +5,7 @@
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">
-			<image class="catalogImg" mode="widthFix" src="https://res1.eqh5.com/Fnj4SqnNZf27XO5MN2jSqY3S3NQD?imageMogr2/auto-orient/thumbnail/710x310%3E/format/webp"></image>
+			<image class="catalogImg" mode="widthFix" src="https://s1.ax1x.com/2020/08/20/dGrBuT.md.jpg"></image>
 		</view>
 		<view class="mt10px" style="padding-bottom: 60rpx">
 			<view wx:for="{{catalogList}}" wx:key="type" wx:for-item="item1">

@@ -7,15 +7,14 @@ Page({
   data: {
     startAnimate: false,
     images: [
-      'https://res1.eqh5.com/Fh-C81Wf5WL5UbiF4TR9RGI31vx2?imageMogr2/auto-orient/thumbnail/660x485%3E/format/webp',
-      'https://res1.eqh5.com/FgexDAj5p_eAOunFob2JzDjUKlgE?imageMogr2/auto-orient/thumbnail/670x485%3E/format/webp',
-      'https://res1.eqh5.com/FmnmHBUjeucDGiXcClf53m26b6kf?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!1224x613a0a0%7CimageMogr2/auto-orient/thumbnail/723x360%3E/format/webp'
+      'https://s1.ax1x.com/2020/08/20/dJwFUA.md.png',
+      'https://s1.ax1x.com/2020/08/20/dJwiEd.md.png',
+      'https://s1.ax1x.com/2020/08/20/dJwCHH.md.png'
     ],
     originalImgsList: [
-      '',
-      '',
-      '',
-      ''
+      'https://s1.ax1x.com/2020/08/20/dJwFUA.png',
+      'https://s1.ax1x.com/2020/08/20/dJwiEd.png',
+      'https://s1.ax1x.com/2020/08/20/dJwCHH.png'
     ] // 原图
   },
 

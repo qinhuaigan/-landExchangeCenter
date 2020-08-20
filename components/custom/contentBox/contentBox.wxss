@@ -19,7 +19,9 @@
   font-weight: bold;
   background-size: contain;
   background-position: center;
-  background-image: url('https://res1.eqh5.com/o_1dmnqo4bevc71l401hbo1gtj1cv814.png?imageMogr2/auto-orient/thumbnail/145x155%3E/format/webp');
+  background-image: url('https://s1.ax1x.com/2020/08/20/dJfDmR.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .boxTitleText {
@@ -37,6 +39,6 @@
   padding: 30rpx;
   padding-top: 80rpx;
   border-radius: 30rpx;
-  background-color: cornflowerblue;
+  background-color: #4e86ba;
   color: #fff;
 }

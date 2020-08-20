@@ -15,13 +15,13 @@
 
 .footerBox .box1 {
   width: 20%;
-  height: 200rpx;
-  background-image: url('https://res1.eqh5.com/Fuq9SJYtaBhq6_YGC_44Q-ZQAZfc?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!240x178a0a0%7CimageMogr2/auto-orient/thumbnail/300x223%3E/format/webp');
+  height: 150rpx;
+  background-image: url('https://s1.ax1x.com/2020/08/20/dGrm4A.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
   position: absolute;
-  left: -10%;
+  left: 0;
   bottom: 0;
   z-index: 10;
 }
@@ -29,25 +29,25 @@
 .footerBox .box2 {
   width: 30%;
   height: 90rpx;
-  background-image: url('https://res1.eqh5.com/FiyGMRpiIyo-kJCeWRX3piXS4JLZ?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!310x78a0a0%7CimageMogr2/auto-orient/thumbnail/460x115%3E/format/webp');
+  background-image: url('https://s1.ax1x.com/2020/08/20/dGrK3t.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
   position: absolute;
-  left: 5%;
+  left: 10%;
   bottom: 0;
   z-index: 100;
 }
 
 .footerBox .box3 {
-  width: 60%;
+  width: 50%;
   height: 150rpx;
-  background-image: url('https://res1.eqh5.com/FudIlv0ZwS3_1zaX6KBiq5Jq4wyC?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!370x78a0a0%7CimageMogr2/auto-orient/thumbnail/650x135%3E/format/webp');
+  background-image: url('https://s1.ax1x.com/2020/08/20/dGrMgP.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
   position: absolute;
-  left: 28%;
+  left: 35%;
   bottom: 0;
   z-index: 200;
 }
@@ -55,11 +55,12 @@
 .footerBox .box4 {
   width: 30%;
   height: 200rpx;
-  background-image: url('https://res1.eqh5.com/FlOf4vTfQm1p4q3ml_P4Irc5-fov?imageMogr2/auto-orient%7CimageMogr2/auto-orient/crop/!213x178a0a0%7CimageMogr2/auto-orient/thumbnail/310x258%3E/format/webp');
+  background-image: url('https://s1.ax1x.com/2020/08/20/dGru9I.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
   position: absolute;
-  right: -15%;
+  right: 0;
   bottom: 0;
+  background-position: right;
 }

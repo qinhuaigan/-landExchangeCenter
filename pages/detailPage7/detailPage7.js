@@ -7,16 +7,16 @@ Page({
   data: {
     startAnimate: false,
     images: [
-      'https://res1.eqh5.com/FvsMyLSHrJJnqB4kKpbzboE6lPLM?imageMogr2/auto-orient/thumbnail/603x475%3E/format/webp',
-      'https://res1.eqh5.com/FhrTzIHWAeCdmUdCzOW_tjaHll_O?imageMogr2/auto-orient/thumbnail/630x448%3E/format/webp',
-      'https://res1.eqh5.com/FtWpOb2W5RxSRHCjGEiH4GxK9Y0j?imageMogr2/auto-orient/thumbnail/658x425%3E/format/webp',
-      'https://res1.eqh5.com/Fq1nPrSuphcXS_Fre-GZ6ivzXBrX?imageMogr2/auto-orient/thumbnail/665x435%3E/format/webp'
+      'https://s1.ax1x.com/2020/08/20/dJQ8O0.md.png',
+      'https://s1.ax1x.com/2020/08/20/dJsrj0.md.jpg',
+      'https://s1.ax1x.com/2020/08/20/dJQ1ln.md.jpg',
+      'https://s1.ax1x.com/2020/08/20/dJQJmV.md.jpg'
     ],
     originalImgsList: [
-      '',
-      '',
-      '',
-      ''
+      'https://s1.ax1x.com/2020/08/20/dJQ8O0.png',
+      'https://s1.ax1x.com/2020/08/20/dJsrj0.jpg',
+      'https://s1.ax1x.com/2020/08/20/dJQ1ln.jpg',
+      'https://s1.ax1x.com/2020/08/20/dJQJmV.jpg'
     ] // 原图
   },
 
