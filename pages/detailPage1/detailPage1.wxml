@@ -7,6 +7,12 @@
 		<view class="detailTitle">沿江路东侧桂中大道延长线西侧部分土地</view>
 		<view class="imgTitle">推介地块区位图</view>
 		<image src="{{images[0]}}" mode="widthFix" data-src="{{images[0]}}" bindtap="preview"></image>
+		<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=01">
+			<view class="gotoMapBtntext">
+				<wux-icon type="ios-send" size="20" />
+				<view>导航</view>
+			</view>
+		</navigator>
 		<view class="imgTitle mt20px">地理位置</view>
 		<image src="{{images[1]}}" mode="widthFix" data-src="{{images[1]}}" bindtap="preview"></image>
 		<view class="detailTitle">地块信息</view>

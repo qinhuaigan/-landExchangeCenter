@@ -1,5 +1,11 @@
 <!--pages/detailPage16/detailPage16.wxml-->
 <view class="pageBody">
+	<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=16">
+		<view class="gotoMapBtntext">
+			<wux-icon type="ios-send" size="20" />
+			<view>导航</view>
+		</view>
+	</navigator>
 	<view class="mt20px">
 		<title leftTitle="16. 柳东新区" rightTitle="LIUDONGXINQU"></title>
 	</view>
@@ -9,10 +15,10 @@
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
-    <view class="footerText">
-      <view>地块信息</view>
-      <view class="mt5px">地块总面积：99.496亩</view>
-    </view>
+		<view class="footerText">
+			<view>地块信息</view>
+			<view class="mt5px">地块总面积：99.496亩</view>
+		</view>
 		<view class="mt20px">
 			<contentBox title="地块一">
 				<wux-row class="lineHeight32px">
@@ -31,7 +37,7 @@
 				</wux-row>
 			</contentBox>
 		</view>
-    <view class="mt20px">
+		<view class="mt20px">
 			<contentBox title="地块二">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
@@ -62,6 +68,3 @@
 	</view>
 	<footer startAnimate="{{startAnimate}}"></footer>
 </view>
-
-
-

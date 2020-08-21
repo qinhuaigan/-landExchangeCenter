@@ -1,5 +1,11 @@
 <!--pages/detailPage19/detailPage19.wxml-->
 <view class="pageBody">
+	<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=19">
+		<view class="gotoMapBtntext">
+			<wux-icon type="ios-send" size="20" />
+			<view>导航</view>
+		</view>
+	</navigator>
 	<view class="mt20px">
 		<title leftTitle="19. 北部生态新区" rightTitle="BEIBUSHENGTAI"></title>
 	</view>

@@ -1,5 +1,11 @@
 <!--pages/detailPage18/detailPage18.wxml-->
 <view class="pageBody">
+	<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=18">
+		<view class="gotoMapBtntext">
+			<wux-icon type="ios-send" size="20" />
+			<view>导航</view>
+		</view>
+	</navigator>
 	<view class="mt20px">
 		<title leftTitle="18. 柳东新区" rightTitle="LIUDONGXINQU"></title>
 	</view>

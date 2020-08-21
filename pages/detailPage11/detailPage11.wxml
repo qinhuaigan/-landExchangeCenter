@@ -60,10 +60,16 @@
 	<view class="pageContent">
 		<view class="mt10px">
 			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
-      <image class="mt10px" mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
+			<image class="mt10px" mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
 		</view>
 		<view class="descriptionText">地块位于柳北重要交通枢纽双冲大桥、胜利立交桥旁，距离柳北中心大润发商圈仅1.7公里，距离雀山公园1.8公里，交通便利，风景宜人。</view>
 		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
 	</view>
+	<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=11">
+		<view class="gotoMapBtntext">
+			<wux-icon type="ios-send" size="20" />
+			<view>导航</view>
+		</view>
+	</navigator>
 	<footer startAnimate="{{startAnimate}}"></footer>
 </view>

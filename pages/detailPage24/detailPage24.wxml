@@ -1,5 +1,11 @@
 <!--pages/detailPage24/detailPage24.wxml-->
 <view class="pageBody">
+	<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=24">
+		<view class="gotoMapBtntext">
+			<wux-icon type="ios-send" size="20" />
+			<view>导航</view>
+		</view>
+	</navigator>
 	<view class="mt20px">
 		<title leftTitle="24. 鱼峰区" rightTitle="YUFENG"></title>
 	</view>

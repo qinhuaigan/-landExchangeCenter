@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/home/home",
@@ -29,13 +29,19 @@
     "pages/detailPage21/detailPage21",
     "pages/detailPage22/detailPage22",
     "pages/detailPage23/detailPage23",
-    "pages/detailPage24/detailPage24"
+    "pages/detailPage24/detailPage24",
+    "pages/mapPage/mapPage"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "柳州市土地交易储备中心",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

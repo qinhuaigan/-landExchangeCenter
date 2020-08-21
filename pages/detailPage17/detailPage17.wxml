@@ -1,5 +1,11 @@
 <!--pages/detailPage17/detailPage17.wxml-->
 <view class="pageBody">
+	<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=17">
+		<view class="gotoMapBtntext">
+			<wux-icon type="ios-send" size="20" />
+			<view>导航</view>
+		</view>
+	</navigator>
 	<view class="mt20px">
 		<title leftTitle="17. 柳东新区" rightTitle="LIUDONGXINQU"></title>
 	</view>
@@ -60,7 +66,7 @@
 	<view class="pageContent">
 		<view class="mt10px">
 			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
-      <image class="mt10px" mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
+			<image class="mt10px" mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
 		</view>
 		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
 	</view>

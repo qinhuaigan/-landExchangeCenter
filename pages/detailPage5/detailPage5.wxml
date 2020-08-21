@@ -7,6 +7,12 @@
 		<view class="detailTitle">楼梯山片区B-4-2、B-4-3地块</view>
 		<view class="imgTitle">柳州市区地图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
+		<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=05">
+			<view class="gotoMapBtntext">
+				<wux-icon type="ios-send" size="20" />
+				<view>导航</view>
+			</view>
+		</navigator>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
 		<view class="footerText text-center">

@@ -1,5 +1,11 @@
 <!--pages/detailPage20/detailPage20.wxml-->
 <view class="pageBody">
+	<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=20">
+		<view class="gotoMapBtntext">
+			<wux-icon type="ios-send" size="20" />
+			<view>导航</view>
+		</view>
+	</navigator>
 	<view class="mt20px">
 		<title leftTitle="20. 城中区" rightTitle="CHENGZHONG"></title>
 	</view>
