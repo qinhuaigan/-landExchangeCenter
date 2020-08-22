@@ -1,7 +1,7 @@
 var data = {
   "01": {
-    "longitude": 109.430407,
-    "latitude": 24.384296
+    "longitude": 109.43228,
+    "latitude": 24.385135
   },
   "02": {
     "longitude": 109.491851,
@@ -12,8 +12,8 @@ var data = {
     "latitude": 24.346228
   }, 
   "04": {
-    "longitude": 109.444492,
-    "latitude": 24.384296
+    "longitude": 109.444906,
+    "latitude": 24.386635
   },
   "05": {
     "longitude": 109.458118,
