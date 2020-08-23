@@ -8,12 +8,12 @@ var data = {
     "latitude": 24.33185
   },
   "03": {
-    "longitude": 109.491851,
-    "latitude": 24.346228
-  }, 
-  "04": {
     "longitude": 109.466993,
     "latitude": 24.33148
+  }, 
+  "04": {
+    "longitude": 109.444109,
+    "latitude": 24.388445
   },
   "05": {
     "longitude": 109.471777,
@@ -70,7 +70,6 @@ var data = {
   "18": {
     "longitude": 109.515686,
     "latitude": 24.386894
-	
   },
   "19": {
     "longitude": 109.480396,
