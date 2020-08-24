@@ -22,7 +22,7 @@ Page({
           // 用户未授权，请求用户授权
           wx.authorize({
             scope: 'scope.userLocation',
-            success () {
+            success() {
               // 用户已经同意小程序获取地理位置
               wx.getLocation({
                 altitude: 'altitude',
@@ -32,7 +32,11 @@ Page({
                     latitude: res.latitude,
                     markers: [locationData.data[options.id]]
                   })
-                  wx.openLocation(locationData.data[options.id])
+                  const position = {
+                    longitude: locationData.data[options.id].longitude - 0.0065,
+                    latitude: locationData.data[options.id].latitude - 0.0060,
+                  }
+                  wx.openLocation(position)
                 },
                 fail: function (err) {
                   console.log('获取地理位置失败 err', err)
@@ -50,7 +54,11 @@ Page({
                 latitude: res.latitude,
                 markers: [locationData.data[options.id]]
               })
-              wx.openLocation(locationData.data[options.id])
+              const position = {
+                longitude: locationData.data[options.id].longitude - 0.0065,
+                latitude: locationData.data[options.id].latitude - 0.0060,
+              }
+              wx.openLocation(position)
             },
             fail: function (err) {
               console.log('获取地理位置失败 err', err)
