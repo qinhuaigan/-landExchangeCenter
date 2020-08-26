@@ -1,0 +1,4 @@
+<!--components/custom/music/music.wxml-->
+<view class="musicBox" bindtap="changePlayStayus" style="animation-play-state: {{playStatus ? 'running' : 'paused'}}">
+	<image mode="widthFix" src="/static/imgs/musicIcon.png"></image>
+</view>

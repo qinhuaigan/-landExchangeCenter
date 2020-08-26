@@ -7,6 +7,7 @@
     "title": "../../components/custom/title/title",
     "instructionsIcon": "../../components/custom/instructionsIcon/instructionsIcon",
     "wux-timeline": "../../components/wux-weapp/timeline/index",
-    "wux-timeline-item": "../../components/wux-weapp/timeline-item/index"
+    "wux-timeline-item": "../../components/wux-weapp/timeline-item/index",
+    "music": "../../components/custom/music/music"
   }
 }

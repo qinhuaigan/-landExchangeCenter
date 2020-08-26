@@ -1,5 +1,6 @@
 <!--pages/home/home.wxml-->
 <view class="homeBody" bindtap="handletap" bindtouchstart="handletouchtart" bindtouchmove="handletouchmove" bindtouchend="handletouchend">
+	<music></music>
 	<view class="text-center">
 		<view class="topBox animated fadeInDown">
 			<view class="fz30px animated fadeInDownBig">

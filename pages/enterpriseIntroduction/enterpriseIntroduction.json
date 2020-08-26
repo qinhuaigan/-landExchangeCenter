@@ -6,6 +6,7 @@
     "wux-image": "../../components/wux-weapp/image/index",
     "footer": "../../components/custom/footer/footer",
     "title": "../../components/custom/title/title",
-    "instructionsIcon": "../../components/custom/instructionsIcon/instructionsIcon"
+    "instructionsIcon": "../../components/custom/instructionsIcon/instructionsIcon",
+    "music": "../../components/custom/music/music"
   }
 }

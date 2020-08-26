@@ -4,6 +4,7 @@
     "wux-col": "../../components/wux-weapp/col/index",
     "wux-icon": "../../components/wux-weapp/icon/index",
     "wux-image": "../../components/wux-weapp/image/index",
-    "instructionsIcon": "../../components/custom/instructionsIcon/instructionsIcon"
+    "instructionsIcon": "../../components/custom/instructionsIcon/instructionsIcon",
+    "music": "../../components/custom/music/music"
   }
 }

@@ -1,5 +1,6 @@
 <!--pages/detailPage11/detailPage11.wxml-->
 <view class="pageBody">
+	<music></music>
 	<view class="mt20px">
 		<title leftTitle="11. 柳北区" rightTitle="LIUBEI"></title>
 	</view>

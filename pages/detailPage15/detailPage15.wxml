@@ -1,5 +1,6 @@
 <!--pages/detailPage15/detailPage15.wxml-->
 <view class="pageBody">
+	<music></music>
 	<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=15">
 		<view class="gotoMapBtntext">
 			<wux-icon type="ios-send" size="20" />

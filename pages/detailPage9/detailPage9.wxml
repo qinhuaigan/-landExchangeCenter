@@ -1,5 +1,6 @@
 <!--pages/detailPage9/detailPage9.wxml-->
 <view class="pageBody">
+	<music></music>
 	<view class="mt20px">
 		<title leftTitle="09. 柳南区" rightTitle="LIUNAN"></title>
 	</view>

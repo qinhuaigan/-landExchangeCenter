@@ -1,5 +1,6 @@
 <!--pages/introduceHome/introduceHome.wxml-->
 <view class="pageBody" style="padding-bottom: 120rpx" bindtap = "handletap" bindtouchstart = "handletouchtart" bindtouchmove="handletouchmove" bindtouchend="handletouchend">
+	<music></music>
 	<view class="mt20px">
 		<title leftTitle="- 广西 · 柳州 -" rightTitle="ABOUT LIUZHOU"></title>
 	</view>

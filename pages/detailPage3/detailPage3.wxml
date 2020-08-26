@@ -1,5 +1,6 @@
 <!--pages/detailPage3/detailPage3.wxml-->
 <view class="pageBody">
+	<music></music>
 	<view class="mt20px">
 		<title leftTitle="03. 城 中 区" rightTitle="CHENGZHONG"></title>
 	</view>
