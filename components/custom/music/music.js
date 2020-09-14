@@ -34,7 +34,7 @@ Component({
       const back = wx.getBackgroundAudioManager();
       function player() {
         back.title = "此时此刻";
-        back.src = "https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9pM2tiMThDcENuN2Q3RV9nP2U9SjlKNkhn.mp3";
+        back.src = "https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qQS1vWnZrT09nRzd4VkJMP2U9aHJxS3hh.mp3";
         back.onEnded(() => {
           player();
         })
