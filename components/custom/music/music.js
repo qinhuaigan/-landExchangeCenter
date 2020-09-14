@@ -32,6 +32,7 @@ Component({
     backmusic() {
       const that = this
       const back = wx.getBackgroundAudioManager();
+
       function player() {
         back.title = "此时此刻";
         back.src = "https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qQS1vWnZrT09nRzd4VkJMP2U9aHJxS3hh.mp3";
@@ -44,7 +45,27 @@ Component({
           })
         })
       }
-      player();
+      wx.getBackgroundAudioPlayerState({
+        success: (res) => {
+          if (res.status === 2) {
+            // 没有音乐播放时
+            player();
+          } else {
+            this.data.playStatus = false
+            this.setData({
+              playStatus: this.data.playStatus
+            })
+          }
+        },
+        fail: (err) => {
+          this.data.playStatus = true
+          this.setData({
+            playStatus: this.data.playStatus
+          })
+          player();
+        }
+      })
+
     },
   },
   lifetimes: {
