@@ -10,8 +10,8 @@
   transform: translate(-50%, -50%);
   display: inline-block;
   overflow: hidden;
-  width: 120rpx;
-  height: 120rpx;
+  width: 150rpx;
+  height: 150rpx;
   font-size: 32rpx;
   text-align: center;
   position: absolute;

@@ -42,9 +42,6 @@
 		<view class="mt10px">
 			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
 		</view>
-    <view class="mt10px">
-			<image mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
-		</view>
 		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
 	</view>
 	<footer startAnimate="{{startAnimate}}"></footer>

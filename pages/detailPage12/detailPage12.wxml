@@ -41,7 +41,6 @@
 	<view class="pageContent">
 		<view class="mt10px">
 			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
-			<image class="mt10px" mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
 		</view>
 		<view class="descriptionText">推介地块片区定位为柳州市南部体育休闲场所、生态农业观光基地及其生活配套服务区，与周边构成广西最大的历史文化、生态休闲游憩区及青少年素质教育基地。</view>
 		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>

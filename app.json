@@ -30,6 +30,7 @@
     "pages/detailPage22/detailPage22",
     "pages/detailPage23/detailPage23",
     "pages/detailPage24/detailPage24",
+    "pages/detailPage25/detailPage25",
     "pages/mapPage/mapPage"
   ],
   "permission": {

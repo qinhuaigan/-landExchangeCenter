@@ -41,7 +41,7 @@
 	<view class="pageContent">
 		<view class="mt10px">
 			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
-			<image style="margin-top: -200rpx" mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
+			<image class="mt10px" mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
 		</view>
     <view class="descriptionText">该地块为城市重要景观界面，地处桂柳路城市主干道旁，周边环境优美，配套设施完善，毗邻静兰大桥，是城市商业服务，邻里中心用地的绝佳之选。</view>
 		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>

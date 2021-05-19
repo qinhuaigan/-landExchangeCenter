@@ -2,13 +2,13 @@
 <view class="pageBody">
 	<music></music>
 	<view class="mt20px">
-		<title leftTitle="02. 城 中 区" rightTitle="CHENGZHONG"></title>
+		<title leftTitle="05. 城 中 区" rightTitle="CHENGZHONG"></title>
 	</view>
 	<view class="pageContent">
-		<view class="detailTitle">桂柳路以北B-3-8地块</view>
+		<view class="detailTitle">楼梯山片区B-4-2、B-4-3地块</view>
 		<view class="imgTitle">柳州市区地图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
-		<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=02">
+		<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=05">
 			<view class="gotoMapBtntext">
 				<wux-icon type="ios-send" size="20" />
 				<view>导航</view>
@@ -16,19 +16,41 @@
 		</navigator>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="footerText text-center">
+			<view>地块信息</view>
+			<view>地块总面积：125.85亩</view>
+		</view>
 		<view class="mt20px">
-			<contentBox title="地块信息">
+			<contentBox title="地块一">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
 					<wux-col span="7">城镇住宅用地</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
-					<wux-col span="7">49.868亩</wux-col>
+					<wux-col span="7">77.747亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
-					<wux-col span="7">1.5~2.0</wux-col>
+					<wux-col span="7">1.0~1.5</wux-col>
 					<wux-col span="5" class="text-right">建筑密度：</wux-col>
-					<wux-col span="7">15%~20%</wux-col>
+					<wux-col span="7">15%~28%</wux-col>
 					<wux-col span="5" class="text-right">建筑高度：</wux-col>
-					<wux-col span="7">-15m~60m</wux-col>
+					<wux-col span="7">-10m~24m</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="地块二">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">48.103亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.0~1.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~28%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-10m~24m</wux-col>
 					<wux-col span="5" class="text-right">绿地率：</wux-col>
 					<wux-col span="7">≥30%</wux-col>
 				</wux-row>
@@ -39,16 +61,10 @@
 		<title leftTitle="柳州美景" rightTitle="CHENGZHONG"></title>
 	</view>
 	<view class="pageContent">
-		<view class="clearfixmt10px">
-			<wux-row gutter="20"> 
+		<view class="mt10px">
+			<wux-row gutter="20">
 				<wux-col span="12">
-					<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
-				</wux-col>
-				<wux-col span="6">
-					<image style="height: 200rpx" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
-				</wux-col>
-				<wux-col span="6">
-					<image style="height: 200rpx"  src="{{images[4]}}" data-src="{{images[4]}}" bindtap="preview"></image>
+					<image style="width: 100%; margin-bottom: 40rpx" mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
 				</wux-col>
 			</wux-row>
 		</view>

@@ -1,4 +1,3 @@
-// pages/detailPage12/detailPage12.js
 Page({
 
   /**
@@ -7,14 +6,14 @@ Page({
   data: {
     startAnimate: false,
     images: [
-      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qR1dPQVhSbmNVbC1hZkVZP2U9RmUxU1Nz.jpg',
-      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qR2FYb05qR2tMcFpoNzRnP2U9VW51Rmpy.jpg',
-      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qR2RiWERmclF2ejhJeWhCP2U9cVdTcDla.jpg'
+      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qUmo5TFhNR1NCQmJVQ21IP2U9b25mTk1P.jpg',
+      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qUm1qX0ZFOWNidWxQNmM5P2U9UkNDSzFL.jpg',
+      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qUnBpeGZSTThtMExSemg3P2U9dTN2YklN.jpg'
     ],
     originalImgsList: [
-      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qR1dPQVhSbmNVbC1hZkVZP2U9RmUxU1Nz.jpg',
-      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qR2FYb05qR2tMcFpoNzRnP2U9VW51Rmpy.jpg',
-      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qR2RiWERmclF2ejhJeWhCP2U9cVdTcDla.jpg'
+      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qUmo5TFhNR1NCQmJVQ21IP2U9b25mTk1P.jpg',
+      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qUm1qX0ZFOWNidWxQNmM5P2U9UkNDSzFL.jpg',
+      'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qUnBpeGZSTThtMExSemg3P2U9dTN2YklN.jpg'
     ] // 原图
   },
 

@@ -1,2 +1,83 @@
 <!--pages/detailPage8/detailPage8.wxml-->
-<text>pages/detailPage8/detailPage8.wxml</text>
+<view class="pageBody">
+	<music></music>
+	<view class="mt20px">
+		<title leftTitle="柳南区" rightTitle="LIUNAN"></title>
+	</view>
+	<view class="pageContent">
+		<view class="w100 imgTitle">07.柳太路南侧白露大桥南桥头西面A地块</view>
+    <view class="w100 imgTitle mt10px">08. 柳太路南侧白露大桥南桥头西侧B地块</view>
+		<view class="imgTitle mt20px">周边配置及配套</view>
+		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
+		<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=07">
+			<view class="gotoMapBtntext">
+				<wux-icon type="ios-send" size="20" />
+				<view>导航</view>
+			</view>
+		</navigator>
+		<view class="imgTitle mt20px">位置放大图</view>
+		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="mt20px">
+			<contentBox title="地块07">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">67.870亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~25%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~80m</wux-col>
+          <wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="地块08">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">116.287亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~25%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~80m</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+	</view>
+	<view class="mt20px">
+		<title leftTitle="周边环境" rightTitle="LIUNAN"></title>
+	</view>
+	<view class="pageContent">
+		<view class="mt10px">
+			<wux-row gutter="10">
+				<wux-col span="9">
+					<view class="overHide">
+						<image style="height: 280rpx;" mode="heightFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
+					</view>
+				</wux-col>
+				<wux-col span="3" class="text-right">
+					<view class="overHide">
+						<image style="height: 280rpx; display: inline-block;" mode="heightFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
+					</view>
+				</wux-col>
+			</wux-row>
+		</view>
+		<view class="mt10px">
+			<image mode="widthFix" src="{{images[4]}}" data-src="{{images[4]}}" bindtap="preview"></image>
+		</view>
+		<view class="descriptionText">推介地块定位为活力四射、轻快宜居的新型工业片区配套居住社区，将与跨江相望的万科城携手共绘美好蓝图。在新的机遇下进一步推动了柳州西门户片区的发展，“百里柳江，百里画廊”也将贯穿河西工业区滨江地块。</view>
+		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
+	</view>
+	<footer startAnimate="{{startAnimate}}"></footer>
+</view>
+

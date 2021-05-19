@@ -41,12 +41,22 @@
 	<view class="pageContent">
 		<view class="mt10px">
 			<wux-row>
+				<wux-col span="12">
+					<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
+				</wux-col>
+			</wux-row>
+		</view>
+		<view class="mt10px">
+			<wux-row>
 				<wux-col span="7">
-					<image style="height: 400rpx;" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
+					<view class="overHide">
+						<image style="height: 250rpx;" mode="heightFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
+					</view>
 				</wux-col>
 				<wux-col span="5">
-					<image style="height: 200rpx;" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
-					<image style="height: 200rpx;" src="{{images[4]}}" data-src="{{images[4]}}" bindtap="preview"></image>
+					<view class="overHide">
+						<image style="height: 250rpx;" mode="heightFix" src="{{images[4]}}" data-src="{{images[4]}}" bindtap="preview"></image>
+					</view>
 				</wux-col>
 			</wux-row>
 		</view>

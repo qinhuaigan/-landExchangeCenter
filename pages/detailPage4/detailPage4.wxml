@@ -5,8 +5,8 @@
 		<title leftTitle="04. 城 中 区" rightTitle="CHENGZHONG"></title>
 	</view>
 	<view class="pageContent">
-		<view class="detailTitle">中医院东院北侧东环大道延长线东侧部分地块</view>
-		<view class="imgTitle">柳州市区地图</view>
+		<view class="detailTitle">桂柳路北侧B-5-1地块</view>
+		<view class="imgTitle">推荐地块区位图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=04">
 			<view class="gotoMapBtntext">
@@ -18,39 +18,21 @@
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
 		<view class="footerText text-center">
 			<view>地块信息</view>
-			<view>地块总面积：477.61亩</view>
+			<view>地块总面积：41.36亩</view>
 		</view>
 		<view class="mt20px">
-			<contentBox title="地块一">
+			<contentBox title="B-5-1">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
-					<wux-col span="7">为商业、娱乐康体用地</wux-col>
+					<wux-col span="7">城镇住宅用地、局部商业用地</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
-					<wux-col span="7">348.62亩</wux-col>
+					<wux-col span="7">41.36亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
-					<wux-col span="7">0.5~1.0</wux-col>
+					<wux-col span="7">1.5~2.0</wux-col>
 					<wux-col span="5" class="text-right">建筑密度：</wux-col>
-					<wux-col span="7">15%~30%</wux-col>
+					<wux-col span="7">15%~25%</wux-col>
 					<wux-col span="5" class="text-right">建筑高度：</wux-col>
-					<wux-col span="7">-15m~30m</wux-col>
-				</wux-row>
-			</contentBox>
-		</view>
-		<view class="mt20px">
-			<contentBox title="地块二">
-				<wux-row class="lineHeight32px">
-					<wux-col span="5" class="text-right">地块用途：</wux-col>
-					<wux-col span="7">公园绿地</wux-col>
-					<wux-col span="5" class="text-right">地块面积：</wux-col>
-					<wux-col span="7">128.99亩</wux-col>
-					<wux-col span="5" class="text-right">容积率：</wux-col>
-					<wux-col span="7">0.01~0.02</wux-col>
-					<wux-col span="5" class="text-right">建筑密度：</wux-col>
-					<wux-col span="7">0.5%~2.0%</wux-col>
-					<wux-col span="5" class="text-right">建筑高度：</wux-col>
-					<wux-col span="7">-5m~24m</wux-col>
-					<wux-col span="5" class="text-right">绿地率：</wux-col>
-					<wux-col span="7">≥70%</wux-col>
+					<wux-col span="7">-15m~40m</wux-col>
 				</wux-row>
 			</contentBox>
 		</view>
@@ -61,6 +43,7 @@
 	<view class="pageContent">
 		<view class="mt10px">
 			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
+			<image class="mt20px" mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
 		</view>
 		<view class="descriptionText">地块背靠“城市绿心”莲花山风景区，风景优美、空气宜人，作为柳州市河东片区仅存的少量商业、娱乐康体用地，地块价值潜力不言而喻</view>
 		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>

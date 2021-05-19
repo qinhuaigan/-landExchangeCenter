@@ -18,7 +18,7 @@
 		<image src="{{images[1]}}" mode="widthFix" data-src="{{images[1]}}" bindtap="preview"></image>
 		<view class="mt20px">
 			<contentBox title="地块信息">
-				<image src="{{images[2]}}" mode="widthFix" data-src="{{images[2]}}" bindtap="preview"></image>
+
 			</contentBox>
 		</view>
 	</view>
@@ -29,11 +29,18 @@
 		<view class="mt10px">
 			<wux-row gutter="10">
 				<wux-col span="6">
-					<image style="height: 250rpx" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
-					<image class="mt10px" style="height: 250rpx" src="{{images[4]}}" data-src="{{images[4]}}" bindtap="preview"></image>
+					<view class="overHide">
+						<image style="height: 250rpx" mode="heightFix" src="{{images[2]}}" data-src="{{images[2]}}"
+							bindtap="preview"></image>
+						<image class="mt10px" style="height: 250rpx" mode="heightFix" src="{{images[3]}}" data-src="{{images[3]}}"
+							bindtap="preview"></image>
+					</view>
 				</wux-col>
 				<wux-col span="6">
-					<image style="height: 520rpx" src="{{images[5]}}" data-src="{{images[5]}}" bindtap="preview"></image>
+					<view class="overHide">
+						<image style="height: 520rpx" mode="heightFix" src="{{images[4]}}" data-src="{{images[4]}}"
+							bindtap="preview"></image>
+					</view>
 				</wux-col>
 			</wux-row>
 		</view>

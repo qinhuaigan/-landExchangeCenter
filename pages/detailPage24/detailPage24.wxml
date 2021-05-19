@@ -40,8 +40,22 @@
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">
-			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
-			<image class="mt10px" mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
+			<wux-row gutter="10">
+				<wux-col span="6">
+					<view class="overHide">
+						<image style="height: 250rpx" mode="heightFix" src="{{images[2]}}" data-src="{{images[2]}}"
+							bindtap="preview"></image>
+						<image class="mt10px" style="height: 250rpx" mode="heightFix" src="{{images[3]}}" data-src="{{images[3]}}"
+							bindtap="preview"></image>
+					</view>
+				</wux-col>
+				<wux-col span="6">
+					<view class="overHide">
+						<image style="height: 520rpx" mode="heightFix" src="{{images[4]}}" data-src="{{images[4]}}"
+							bindtap="preview"></image>
+					</view>
+				</wux-col>
+			</wux-row>
 		</view>
 		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
 	</view>
