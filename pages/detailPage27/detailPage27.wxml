@@ -1,7 +1,7 @@
 <!--pages/detailPage24/detailPage24.wxml-->
 <view class="pageBody">
 	<music></music>
-	<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=25">
+	<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=27">
 		<view class="gotoMapBtntext">
 			<wux-icon type="ios-send" size="20" />
 			<view>导航</view>
@@ -41,6 +41,7 @@
 	<view class="pageContent">
 		<view class="mt10px">
 			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
+			<image class="mt10px" mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
 		</view>
 		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
 	</view>

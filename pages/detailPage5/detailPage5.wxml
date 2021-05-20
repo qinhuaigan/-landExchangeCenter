@@ -8,7 +8,7 @@
 		<view class="detailTitle">柳工大道北端东西两侧部分土地</view>
 		<view class="imgTitle">推荐地块区位</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
-		<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=02">
+		<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=05">
 			<view class="gotoMapBtntext">
 				<wux-icon type="ios-send" size="20" />
 				<view>导航</view>

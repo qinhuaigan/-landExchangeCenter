@@ -31,6 +31,9 @@
     "pages/detailPage23/detailPage23",
     "pages/detailPage24/detailPage24",
     "pages/detailPage25/detailPage25",
+    "pages/detailPage26/detailPage26",
+    "pages/detailPage27/detailPage27",
+    "pages/detailPage28/detailPage28",
     "pages/mapPage/mapPage"
   ],
   "permission": {

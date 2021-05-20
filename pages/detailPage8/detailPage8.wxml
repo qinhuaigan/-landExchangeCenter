@@ -8,7 +8,7 @@
 		<view class="detailTitle">旧机场片区航岭路西侧国联运输公司地块</view>
 		<view class="imgTitle mt20px">推荐地块区位图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
-		<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=07">
+		<navigator class="gotoMapBtn" url="../mapPage/mapPage?id=08">
 			<view class="gotoMapBtntext">
 				<wux-icon type="ios-send" size="20" />
 				<view>导航</view>

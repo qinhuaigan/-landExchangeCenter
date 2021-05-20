@@ -85,13 +85,13 @@ Page({
         link: '../detailPage25/detailPage25'
       }, {
         name: '26.柳江区——柳江市民广场东面、南一路和南二路之间',
-        link: '../detailPage25/detailPage25'
+        link: '../detailPage26/detailPage26'
       }, {
         name: '27.柳江区——柳江大道以南沿江路以西地块',
-        link: '../detailPage25/detailPage25'
+        link: '../detailPage27/detailPage27'
       }, {
         name: '28.柳江区——柳江大道C-1-2地块',
-        link: '../detailPage25/detailPage25'
+        link: '../detailPage28/detailPage28'
       }]
     }]
   },
