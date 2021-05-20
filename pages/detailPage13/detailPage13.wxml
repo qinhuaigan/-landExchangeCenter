@@ -8,27 +8,27 @@
 		</view>
 	</navigator>
 	<view class="mt20px">
-		<title leftTitle="13. 鱼峰区" rightTitle="YUFENG"></title>
+		<title leftTitle="13. 鱼 峰 区" rightTitle="YUFENG"></title>
 	</view>
 	<view class="pageContent">
-		<view class="detailTitle">白云路东段以南</view>
-		<view class="imgTitle">柳州市区地图</view>
+		<view class="detailTitle">都乐路北侧部分地块</view>
+		<view class="imgTitle">推荐地块区位图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
 		<view class="mt20px">
-			<contentBox title="地块信息">
+			<contentBox title="地块一">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
 					<wux-col span="7">城镇住宅用地</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
-					<wux-col span="7">164.046亩</wux-col>
+					<wux-col span="7">113.58亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
-					<wux-col span="7">1.5~3.0</wux-col>
+					<wux-col span="7">1.5~2.2</wux-col>
 					<wux-col span="5" class="text-right">建筑密度：</wux-col>
-					<wux-col span="7">15%~25%</wux-col>
+					<wux-col span="7">15%~23%</wux-col>
 					<wux-col span="5" class="text-right">建筑高度：</wux-col>
-					<wux-col span="7">-15m~100m</wux-col>
+					<wux-col span="7">-15m~40m</wux-col>
 					<wux-col span="5" class="text-right">绿地率：</wux-col>
 					<wux-col span="7">≥30%</wux-col>
 				</wux-row>

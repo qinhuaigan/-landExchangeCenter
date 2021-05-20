@@ -8,29 +8,69 @@
 		</view>
 	</navigator>
 	<view class="mt20px">
-		<title leftTitle="14. 鱼峰区" rightTitle="YUFENG"></title>
+		<title leftTitle="14. 鱼 峰 区" rightTitle="YUFENG"></title>
 	</view>
 	<view class="pageContent">
-		<view class="detailTitle">大龙潭东侧地块</view>
-		<view class="imgTitle">柳州市区地图</view>
+		<view class="detailTitle">西江路南侧171号、262号、262号地块</view>
+		<view class="imgTitle">推荐地块区位图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="footerText text-center">
+			<view>地块信息</view>
+			<view>地块总面积：33.11亩</view>
+		</view>
 		<view class="mt20px">
-			<contentBox title="地块信息">
+			<contentBox title="D-4">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
-					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="7">汽车销售及配套服务设施</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
-					<wux-col span="7">70亩</wux-col>
+					<wux-col span="7">14.81亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
-					<wux-col span="7">1.0~1.5</wux-col>
+					<wux-col span="7">1.0~1.2</wux-col>
 					<wux-col span="5" class="text-right">建筑密度：</wux-col>
-					<wux-col span="7">15%~22%</wux-col>
+					<wux-col span="7">20%~40%</wux-col>
 					<wux-col span="5" class="text-right">建筑高度：</wux-col>
-					<wux-col span="7">-10m~24m</wux-col>
+					<wux-col span="7">-10m~14m</wux-col>
 					<wux-col span="5" class="text-right">绿地率：</wux-col>
-					<wux-col span="7">≥35%</wux-col>
+					<wux-col span="7">≥25%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="F-1-1">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">汽车销售及配套服务设施</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">13.28亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.0~1.2</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~40%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-10m~14m</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥25%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="F-1-2">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">汽车销售及配套服务设施</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">15.46亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.0~1.2</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~40%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-10m~14m</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥25%</wux-col>
 				</wux-row>
 			</contentBox>
 		</view>

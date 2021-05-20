@@ -2,7 +2,7 @@
 <view class="pageBody">
 	<music></music>
 	<view class="mt20px">
-		<title leftTitle="05. 城 中 区" rightTitle="CHENGZHONG"></title>
+		<title leftTitle="02. 城 中 区" rightTitle="CHENGZHONG"></title>
 	</view>
 	<view class="pageContent">
 		<view class="detailTitle">楼梯山片区B-4-2、B-4-3地块</view>
@@ -58,7 +58,7 @@
 		</view>
 	</view>
 	<view class="mt20px">
-		<title leftTitle="柳州美景" rightTitle="CHENGZHONG"></title>
+		<title leftTitle="柳州美景" rightTitle="LIUNAN"></title>
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">

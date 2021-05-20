@@ -2,7 +2,7 @@
 <view class="pageBody">
 	<music></music>
 	<view class="mt20px">
-		<title leftTitle="02. 柳 南 区" rightTitle="CHENGZHONG"></title>
+		<title leftTitle="05. 柳 南 区" rightTitle="LIUNAN"></title>
 	</view>
 	<view class="pageContent">
 		<view class="detailTitle">柳工大道北端东西两侧部分土地</view>

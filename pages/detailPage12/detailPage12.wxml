@@ -8,27 +8,27 @@
 		</view>
 	</navigator>
 	<view class="mt20px">
-		<title leftTitle="12. 鱼峰区" rightTitle="YUFENG"></title>
+		<title leftTitle="12. 柳 北 区" rightTitle="LIUBEI"></title>
 	</view>
 	<view class="pageContent">
-		<view class="detailTitle">都乐路北侧地块</view>
-		<view class="imgTitle">柳州市区地图</view>
+		<view class="detailTitle">东外环北侧地块</view>
+		<view class="imgTitle">推荐地块区位图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
 		<view class="mt20px">
-			<contentBox title="地块信息">
+			<contentBox title="地块一">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
-					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="7">城镇住宅、商业用地</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
-					<wux-col span="7">47.260亩</wux-col>
+					<wux-col span="7">108.83亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
-					<wux-col span="7">1.5~2.0</wux-col>
+					<wux-col span="7">1.5~2.4</wux-col>
 					<wux-col span="5" class="text-right">建筑密度：</wux-col>
-					<wux-col span="7">15%~25%</wux-col>
+					<wux-col span="7">15%~22%</wux-col>
 					<wux-col span="5" class="text-right">建筑高度：</wux-col>
-					<wux-col span="7">-15m~40m</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
 					<wux-col span="5" class="text-right">绿地率：</wux-col>
 					<wux-col span="7">≥30%</wux-col>
 				</wux-row>
@@ -36,13 +36,13 @@
 		</view>
 	</view>
 	<view class="mt20px">
-		<title leftTitle="周边配套" rightTitle="YUFENG"></title>
+		<title leftTitle="柳州美景" rightTitle="LIUBEI"></title>
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">
 			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
 		</view>
-		<view class="descriptionText">推介地块片区定位为柳州市南部体育休闲场所、生态农业观光基地及其生活配套服务区，与周边构成广西最大的历史文化、生态休闲游憩区及青少年素质教育基地。</view>
+		<view class="descriptionText"></view>
 		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
 	</view>
 	<footer startAnimate="{{startAnimate}}"></footer>
