@@ -8,27 +8,85 @@
 		</view>
 	</navigator>
 	<view class="mt20px">
-		<title leftTitle="24. 鱼峰区" rightTitle="YUFENG"></title>
+		<title leftTitle="25. 柳 江 区" rightTitle="LIUJIANG"></title>
 	</view>
 	<view class="pageContent">
-		<view class="detailTitle">燎原路以东白云路东段以北地块</view>
-		<view class="imgTitle">柳州市区地图</view>
+		<view class="detailTitle">南环路原东风柳汽二三生产基地</view>
+		<view class="imgTitle">推荐地块区位图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="footerText">
+			<view>地块信息</view>
+			<view class="mt5px">地块总面积：374.42亩</view>
+		</view>
 		<view class="mt20px">
-			<contentBox title="地块信息">
+			<contentBox title="地块一">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
-					<wux-col span="7">零售商业、旅馆业用地</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
-					<wux-col span="7">142亩</wux-col>
+					<wux-col span="7">169亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
-					<wux-col span="7">1.0~1.1</wux-col>
+					<wux-col span="7">1.5~2.8</wux-col>
 					<wux-col span="5" class="text-right">建筑密度：</wux-col>
-					<wux-col span="7">10%~25%</wux-col>
+					<wux-col span="7">15%~25%</wux-col>
 					<wux-col span="5" class="text-right">建筑高度：</wux-col>
-					<wux-col span="7">-10m~24m</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
+          <wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="地块二">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">20.21亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~25%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
+          <wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="地块三">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">143.9亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.8</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~25%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
+          <wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="地块四">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">41.31亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~25%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~50m</wux-col>
           <wux-col span="5" class="text-right">绿地率：</wux-col>
 					<wux-col span="7">≥30%</wux-col>
 				</wux-row>
@@ -36,7 +94,7 @@
 		</view>
 	</view>
 	<view class="mt20px">
-		<title leftTitle="柳州美景" rightTitle="YUFENG"></title>
+		<title leftTitle="柳州美景" rightTitle="LIUJIANG"></title>
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">

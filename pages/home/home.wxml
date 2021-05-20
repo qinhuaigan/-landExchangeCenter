@@ -7,8 +7,8 @@
 				<image mode="widthFix" src="https://s1.ax1x.com/2020/08/20/dGDzN9.png"></image>
 			</view>
 			<view class="fz30px animated bounceIn mt20px">土地</view>
-			<view class="fz32px mt20px animated bounceIn">推介</view>
-			<view class="fz34px mt20px animated bounceIn">宣传册</view>
+			<view class="fz30px mt20px animated bounceIn">推介</view>
+			<view class="fz30px mt20px animated bounceIn">宣传册</view>
 			<view class="fz20px mt20px animated fadeInDownBig">LAND</view>
 			<view class="fz20px mt10px animated fadeInDownBig">PROMOTION</view>
 		</view>

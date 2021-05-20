@@ -8,22 +8,35 @@
 		</view>
 	</navigator>
 	<view class="mt20px">
-		<title leftTitle="19. 北部生态新区" rightTitle="BEIBUSHENGTAI"></title>
+		<title leftTitle="19. 柳 东 新 区" rightTitle="LIUDONGXINQU"></title>
 	</view>
 	<view class="pageContent">
-		<view class="detailTitle">阳和工业新区A-3-1、A-4-1、A-5-2地块</view>
-		<view class="imgTitle">柳州市区地图</view>
+		<view class="detailTitle">柳东新区官塘物流港H-4-1地块</view>
+		<view class="imgTitle">推荐地块区位图</view>
 		<image src="{{images[0]}}" mode="widthFix" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image src="{{images[1]}}" mode="widthFix" data-src="{{images[1]}}" bindtap="preview"></image>
 		<view class="mt20px">
-			<contentBox title="地块信息">
-
+			<contentBox title="H-4-1">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">39.73亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.0~2.2</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">12%~22%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
 			</contentBox>
 		</view>
 	</view>
 	<view class="mt20px">
-		<title leftTitle="柳州美景" rightTitle="BEIBUSHENGTAI"></title>
+		<title leftTitle="周边环境" rightTitle="LIUDONGXINQU"></title>
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">

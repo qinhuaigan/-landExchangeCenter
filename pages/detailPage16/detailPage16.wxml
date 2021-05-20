@@ -8,33 +8,33 @@
 		</view>
 	</navigator>
 	<view class="mt20px">
-		<title leftTitle="16. 柳东新区" rightTitle="LIUDONGXINQU"></title>
+		<title leftTitle="16. 柳 东 新 区" rightTitle="LIUDONGXINQU"></title>
 	</view>
 	<view class="pageContent">
-		<view class="detailTitle">滨江东片区安泰路与祥和路交叉口西北侧部分地块</view>
-		<view class="imgTitle">柳州市区地图</view>
+		<view class="detailTitle">柳东新区曙光大道南侧L-19-27地块</view>
+		<view class="imgTitle">推荐地块区位图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
 		<view class="footerText">
 			<view>地块信息</view>
-			<view class="mt5px">地块总面积：99.496亩</view>
+			<view class="mt5px">地块总面积：110.05亩</view>
 		</view>
 		<view class="mt20px">
 			<contentBox title="地块一">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
-					<wux-col span="7">商业、办公、娱乐用地</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
-					<wux-col span="7">48.377亩</wux-col>
+					<wux-col span="7">52.67亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
-					<wux-col span="7">1.0~1.5</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
 					<wux-col span="5" class="text-right">建筑密度：</wux-col>
-					<wux-col span="7">20%~35%</wux-col>
+					<wux-col span="7">12%~22%</wux-col>
 					<wux-col span="5" class="text-right">建筑高度：</wux-col>
-					<wux-col span="7">-15m~24m</wux-col>
+					<wux-col span="7">-15m~100m</wux-col>
 					<wux-col span="5" class="text-right">绿地率：</wux-col>
-					<wux-col span="7">≥25%</wux-col>
+					<wux-col span="7">≥30%</wux-col>
 				</wux-row>
 			</contentBox>
 		</view>
@@ -44,13 +44,13 @@
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
 					<wux-col span="7">城镇住宅用地</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
-					<wux-col span="7">51.119亩</wux-col>
+					<wux-col span="7">57.38亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
-					<wux-col span="7">1.0~1.5</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
 					<wux-col span="5" class="text-right">建筑密度：</wux-col>
-					<wux-col span="7">20%~30%</wux-col>
+					<wux-col span="7">12%~22%</wux-col>
 					<wux-col span="5" class="text-right">建筑高度：</wux-col>
-					<wux-col span="7">12m~18m</wux-col>
+					<wux-col span="7">-15m~100m</wux-col>
 					<wux-col span="5" class="text-right">绿地率：</wux-col>
 					<wux-col span="7">≥30%</wux-col>
 				</wux-row>

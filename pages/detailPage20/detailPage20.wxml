@@ -8,42 +8,82 @@
 		</view>
 	</navigator>
 	<view class="mt20px">
-		<title leftTitle="20. 城中区" rightTitle="CHENGZHONG"></title>
+		<title leftTitle="20. 柳 东 新 区" rightTitle="LIUDONGXINQU"></title>
 	</view>
 	<view class="pageContent">
-		<view class="detailTitle">桂柳路北B-1-5地块</view>
-		<view class="imgTitle">柳州市区地图</view>
+		<view class="detailTitle">滨江东片区东环城大道与纬六路交叉口西南侧部分</view>
+		<view class="imgTitle">推荐地块区位图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="footerText">
+			<view>地块信息</view>
+			<view class="mt5px">地块总面积：112.38亩</view>
+		</view>
 		<view class="mt20px">
-			<contentBox title="地块信息">
+			<contentBox title="地块一">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
-					<wux-col span="7">其他商服 (邻里中心) 用地</wux-col>
+					<wux-col span="7">城镇住宅用地、商业用地、办公用地</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
-					<wux-col span="7">18.798亩</wux-col>
+					<wux-col span="7">29.26亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
 					<wux-col span="7">1.0~1.5</wux-col>
 					<wux-col span="5" class="text-right">建筑密度：</wux-col>
-					<wux-col span="7">25%~35%</wux-col>
+					<wux-col span="7">15%~25%</wux-col>
 					<wux-col span="5" class="text-right">建筑高度：</wux-col>
-					<wux-col span="7">-15m~20m</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
           <wux-col span="5" class="text-right">绿地率：</wux-col>
-					<wux-col span="7">≥15%</wux-col>
+					<wux-col span="7">≥25%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="地块二">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地、商业用地、办公用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">41.65亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.0</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~25%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
+          <wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥25%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="地块三">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">41.47亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">10%~22%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
+          <wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
 				</wux-row>
 			</contentBox>
 		</view>
 	</view>
 	<view class="mt20px">
-		<title leftTitle="柳州美景" rightTitle="CHENGZHONG"></title>
+		<title leftTitle="柳州美景" rightTitle="LIUDONGXINQU"></title>
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">
 			<image mode="widthFix" src="{{images[2]}}" data-src="{{images[2]}}" bindtap="preview"></image>
 			<image class="mt10px" mode="widthFix" src="{{images[3]}}" data-src="{{images[3]}}" bindtap="preview"></image>
 		</view>
-    <view class="descriptionText">该地块为城市重要景观界面，地处桂柳路城市主干道旁，周边环境优美，配套设施完善，毗邻静兰大桥，是城市商业服务，邻里中心用地的绝佳之选。</view>
+    <view class="descriptionText"></view>
 		<view class="footerText">宗地出让条件等信息以柳州市土地交易储备中心发布的公开交易文件为准</view>
 	</view>
 	<footer startAnimate="{{startAnimate}}"></footer>

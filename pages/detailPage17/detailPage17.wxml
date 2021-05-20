@@ -8,61 +8,57 @@
 		</view>
 	</navigator>
 	<view class="mt20px">
-		<title leftTitle="17. 柳东新区" rightTitle="LIUDONGXINQU"></title>
+		<title leftTitle="17. 柳 东 新 区" rightTitle="LIUDONGXINQU"></title>
 	</view>
 	<view class="pageContent">
 		<view class="detailTitle">职教园集中教学区B-2-6、B-2-9地块</view>
-		<view class="imgTitle">柳州市区地图</view>
+		<view class="imgTitle">推荐地块区位图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="footerText">
+			<view>地块信息</view>
+			<view class="mt5px">地块总面积：119.45亩</view>
+		</view>
 		<view class="mt20px">
-			<contentBox title="地块信息">
+			<contentBox title="B-2-6">
 				<wux-row class="lineHeight32px">
-					<view class="fz18px" style="font-weight: bold;">
-						<wux-col span="6" class="text-right">地块总面积：</wux-col>
-						<wux-col span="6">162.323亩</wux-col>
-					</view>
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">76.58亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~25%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
 				</wux-row>
-				<view class="">
-					<wux-row class="lineHeight32px">
-						<view class="text-center" style="font-weight: bold;">B-2-6 地块</view>
-						<wux-col span="5" class="text-right">地块用途：</wux-col>
-						<wux-col span="7">城镇住宅用地</wux-col>
-						<wux-col span="5" class="text-right">地块面积：</wux-col>
-						<wux-col span="7">119.451亩</wux-col>
-						<wux-col span="5" class="text-right">容积率：</wux-col>
-						<wux-col span="7">1.5~2.5</wux-col>
-						<wux-col span="5" class="text-right">建筑密度：</wux-col>
-						<wux-col span="7">15%~25%</wux-col>
-						<wux-col span="5" class="text-right">建筑高度：</wux-col>
-						<wux-col span="7">-15m~40m</wux-col>
-						<wux-col span="5" class="text-right">绿地率：</wux-col>
-						<wux-col span="7">≥30%</wux-col>
-					</wux-row>
-				</view>
-				<view class="mt20px">
-					<wux-row class="lineHeight32px">
-						<view class="text-center" style="font-weight: bold;">B-2-9 地块</view>
-						<wux-col span="5" class="text-right">地块用途：</wux-col>
-						<wux-col span="7">城镇住宅用地</wux-col>
-						<wux-col span="5" class="text-right">地块面积：</wux-col>
-						<wux-col span="7">42.872亩</wux-col>
-						<wux-col span="5" class="text-right">容积率：</wux-col>
-						<wux-col span="7">1.5~2.5</wux-col>
-						<wux-col span="5" class="text-right">建筑密度：</wux-col>
-						<wux-col span="7">15%~25%</wux-col>
-						<wux-col span="5" class="text-right">建筑高度：</wux-col>
-						<wux-col span="7">-15m~40m</wux-col>
-						<wux-col span="5" class="text-right">绿地率：</wux-col>
-						<wux-col span="7">≥30%</wux-col>
-					</wux-row>
-				</view>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="B-2-9">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">42.87亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~25%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
 			</contentBox>
 		</view>
 	</view>
 	<view class="mt20px">
-		<title leftTitle="柳州美景" rightTitle="LIUDONGXINQU"></title>
+		<title leftTitle="周边美景" rightTitle="LIUDONGXINQU"></title>
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">

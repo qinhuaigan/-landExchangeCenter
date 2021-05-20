@@ -8,35 +8,93 @@
 		</view>
 	</navigator>
 	<view class="mt20px">
-		<title leftTitle="22. 柳南区" rightTitle="LIUNAN"></title>
+		<title leftTitle="22. 北 部 生 态 新 区" rightTitle="BEIBUSHENGTAI"></title>
 	</view>
 	<view class="pageContent">
-		<view class="detailTitle">柳工大道以东石烂路以南A地块</view>
-		<view class="imgTitle">柳州市区地图</view>
+		<view class="detailTitle">阳和工业新区K-8-1、K-9-1、K-12-2、K-13-1地块 </view>
+		<view class="imgTitle">推荐地块区位图</view>
 		<image mode="widthFix" src="{{images[0]}}" data-src="{{images[0]}}" bindtap="preview"></image>
 		<view class="imgTitle mt20px">地块位置</view>
 		<image mode="widthFix" src="{{images[1]}}" data-src="{{images[1]}}" bindtap="preview"></image>
+		<view class="footerText">
+			<view>地块信息</view>
+			<view class="mt5px">地块总面积：185.97亩</view>
+		</view>
 		<view class="mt20px">
-			<contentBox title="地块信息">
+			<contentBox title="K-8-1">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
-					<wux-col span="7">办公商业用地</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
-					<wux-col span="7">53.486亩</wux-col>
+					<wux-col span="7">56.56亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
-					<wux-col span="7">1.0~2.0</wux-col>
+					<wux-col span="7">1.8~1.8</wux-col>
 					<wux-col span="5" class="text-right">建筑密度：</wux-col>
-					<wux-col span="7">15%~25%</wux-col>
+					<wux-col span="7">15%~22%</wux-col>
 					<wux-col span="5" class="text-right">建筑高度：</wux-col>
 					<wux-col span="7">-15m~40m</wux-col>
 					<wux-col span="5" class="text-right">绿地率：</wux-col>
-					<wux-col span="7">≥20%</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="K-9-1">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">55.01亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~22%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~60m</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="K-12-2">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">城镇住宅用地</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">52.67亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.5~2.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~22%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~100m</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥30%</wux-col>
+				</wux-row>
+			</contentBox>
+		</view>
+		<view class="mt20px">
+			<contentBox title="K-13-1">
+				<wux-row class="lineHeight32px">
+					<wux-col span="5" class="text-right">地块用途：</wux-col>
+					<wux-col span="7">商业设施（邻里中心）</wux-col>
+					<wux-col span="5" class="text-right">地块面积：</wux-col>
+					<wux-col span="7">21.71亩</wux-col>
+					<wux-col span="5" class="text-right">容积率：</wux-col>
+					<wux-col span="7">1.0~1.5</wux-col>
+					<wux-col span="5" class="text-right">建筑密度：</wux-col>
+					<wux-col span="7">15%~35%</wux-col>
+					<wux-col span="5" class="text-right">建筑高度：</wux-col>
+					<wux-col span="7">-15m~40m</wux-col>
+					<wux-col span="5" class="text-right">绿地率：</wux-col>
+					<wux-col span="7">≥25%</wux-col>
 				</wux-row>
 			</contentBox>
 		</view>
 	</view>
 	<view class="mt20px">
-		<title leftTitle="周边配套" rightTitle="LIUNAN"></title>
+		<title leftTitle="柳州美景" rightTitle="BEIBUSHENGTAI"></title>
 	</view>
 	<view class="pageContent">
 		<view class="mt10px">
