@@ -28,7 +28,7 @@
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
 					<wux-col span="7">56.56亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
-					<wux-col span="7">1.8~1.8</wux-col>
+					<wux-col span="7">1.5~1.8</wux-col>
 					<wux-col span="5" class="text-right">建筑密度：</wux-col>
 					<wux-col span="7">15%~22%</wux-col>
 					<wux-col span="5" class="text-right">建筑高度：</wux-col>

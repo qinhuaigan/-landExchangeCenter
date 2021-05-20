@@ -18,7 +18,7 @@
 			<contentBox title="B-1-4">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
-					<wux-col span="7">城镇住宅、零售商业用地</wux-col>
+					<wux-col span="7">城镇住宅、局部商业用地</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
 					<wux-col span="7">28.352亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
@@ -36,7 +36,7 @@
 			<contentBox title="B-2-2">
 				<wux-row class="lineHeight32px">
 					<wux-col span="5" class="text-right">地块用途：</wux-col>
-					<wux-col span="7">城镇住宅、零售商业用地</wux-col>
+					<wux-col span="7">城镇住宅、局部商业用地</wux-col>
 					<wux-col span="5" class="text-right">地块面积：</wux-col>
 					<wux-col span="7">25.919亩</wux-col>
 					<wux-col span="5" class="text-right">容积率：</wux-col>
