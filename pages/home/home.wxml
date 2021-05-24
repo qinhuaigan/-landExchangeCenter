@@ -4,7 +4,8 @@
 	<view class="text-center">
 		<view class="topBox animated fadeInDown">
 			<view class="fz30px animated fadeInDownBig">
-				<image mode="widthFix" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qU2hpSkEzei1hMXRfRmxBP2U9eXJZa0E2.jpg"></image>
+				<view class="fz30px">2021</view>
+				<!-- <image mode="widthFix" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qU2hpSkEzei1hMXRfRmxBP2U9eXJZa0E2.jpg"></image> -->
 			</view>
 			<view class="fz30px animated bounceIn mt20px">土地</view>
 			<view class="fz30px mt20px animated bounceIn">推介</view>
