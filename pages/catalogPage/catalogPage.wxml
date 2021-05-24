@@ -13,7 +13,7 @@
 				<view class="catalogType">{{item1.type}}</view>
 				<view class="mt10px">
 					<wux-timeline>
-						<wux-timeline-item wx:key="link" wx:for="{{item1.data}}" wx:for-item="item2" dotStyle="border-color: cornflowerblue; color: #33cd5f; background-color: cornflowerblue;">
+						<wux-timeline-item dotStyle="{{dotStyle}}" wx:key="link" wx:for="{{item1.data}}" wx:for-item="item2">
 							<navigator url="{{item2.link}}">{{item2.name}}</navigator>
 						</wux-timeline-item>
 					</wux-timeline>

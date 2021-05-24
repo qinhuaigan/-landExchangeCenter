@@ -23,7 +23,7 @@ Page({
       }, {
         name: '05.柳南区——柳工大道北端东西两侧部分土地',
         link: '../detailPage5/detailPage5'
-      },, {
+      }, , {
         name: '06.柳南区——白露大桥南端东侧地块一、地块二',
         link: '../detailPage6/detailPage6'
       }, {
@@ -93,7 +93,11 @@ Page({
         name: '28.柳江区——柳江大道C-1-2地块',
         link: '../detailPage28/detailPage28'
       }]
-    }]
+    }],
+    dotStyle: {
+      'background-color': '#f7a3c9',
+      'border-color': '#f7a3c9'
+    }
   },
 
   /**

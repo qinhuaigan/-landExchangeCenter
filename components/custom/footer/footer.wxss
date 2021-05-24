@@ -16,7 +16,7 @@
 .footerBox .box1 {
   width: 20%;
   height: 150rpx;
-  background-image: url('https://s1.ax1x.com/2020/08/20/dGrm4A.png');
+  background-image: url('https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qU3FXOEFOTXFMWkVPdkUwP2U9UUhNMWMx.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -29,7 +29,7 @@
 .footerBox .box2 {
   width: 30%;
   height: 90rpx;
-  background-image: url('https://s1.ax1x.com/2020/08/20/dGrK3t.png');
+  background-image: url('https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qU3ZjRXMxVlJjTHRyT193P2U9bEd1RHJ0.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -42,7 +42,7 @@
 .footerBox .box3 {
   width: 50%;
   height: 150rpx;
-  background-image: url('https://s1.ax1x.com/2020/08/20/dGrMgP.png');
+  background-image: url('https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qU3c0Z0ZUQ3lRNndDWkFBP2U9NTczblhI.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -55,7 +55,7 @@
 .footerBox .box4 {
   width: 30%;
   height: 200rpx;
-  background-image: url('https://s1.ax1x.com/2020/08/20/dGru9I.png');
+  background-image: url('https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qUzFiTlR2NjNqVlduMDJXP2U9NjREcEhv.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;

@@ -14,7 +14,7 @@
 .topBox {
   display: inline-block;
   padding: 20rpx 30rpx;
-  background-color: cornflowerblue;
+  background-color: #f7a3c9;
   color: #fff;
   box-shadow: 0 5rpx 5rpx 5rpx rgba(0, 0, 0, 0.1);
 }

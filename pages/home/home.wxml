@@ -4,7 +4,7 @@
 	<view class="text-center">
 		<view class="topBox animated fadeInDown">
 			<view class="fz30px animated fadeInDownBig">
-				<image mode="widthFix" src="https://s1.ax1x.com/2020/08/20/dGDzN9.png"></image>
+				<image mode="widthFix" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qU2hpSkEzei1hMXRfRmxBP2U9eXJZa0E2.jpg"></image>
 			</view>
 			<view class="fz30px animated bounceIn mt20px">土地</view>
 			<view class="fz30px mt20px animated bounceIn">推介</view>
@@ -14,10 +14,10 @@
 		</view>
 	</view>
 	<view class="w60 bottomLeft clearfix mt40px ml20px animated rotateInDownLeft">
-		<image mode="widthFix" src="https://s1.ax1x.com/2020/08/20/dGr991.png"></image>
+		<image mode="widthFix" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qUzVVX28ycjNKMGRtV2p1P2U9Q2cybllU.jpg"></image>
 	</view>
 	<view class="w60 fr bottomRight mt20px mr20px animated rotateInDownRight text-right">
-		<image mode="widthFix" src="https://s1.ax1x.com/2020/08/20/dGrShR.png"></image>
+		<image mode="widthFix" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdDdZUmxwaHBDSm9qUy04X2UxYVB1eFJDSG9KP2U9dXJ3RjRx.jpg"></image>
 	</view>
 	<view class="nextPage" bindtap="goNext">
 		<wux-icon type="ios-arrow-forward" />
